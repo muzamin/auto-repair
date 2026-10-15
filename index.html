@@ -1,0 +1,2029 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VoltEdge Auto Electrical | Premier Battery & Automotive Electrical Repair</title>
+  <meta name="description"
+    content="Specialized auto electrical repair, precision computerized diagnostics, heavy-duty battery testing & replacement, and alternator servicing by certified master technicians.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo_icon.png">
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+  <!-- HEADER & NAVIGATION -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <!-- Left: Brand Logo & Name -->
+      <a href="#hero" class="brand-logo" id="brand-logo" aria-label="VOLTERRA Battery & Auto Electrical">
+        <span class="logo-icon-wrap">
+          <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+        </span>
+        <div class="brand-text">
+          <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span
+              class="brand-title-secondary">ERRA</span></span>
+          <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+        </div>
+      </a>
+
+      <!-- Middle: 6 Nav Links (Dashboard MUST be the last link) -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown" id="nav-home-dropdown">
+            <a href="#hero" class="nav-link active" id="nav-home">
+              <span>Home</span>
+              <svg class="chevron-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M4 6L8 10L12 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="#hero" class="dropdown-item current-page">
+                <div class="dropdown-item-title">Home 1 (Classic Specialist)</div>
+                <div class="dropdown-item-desc">Precision Diagnostics & Battery Hub</div>
+              </a>
+              <a href="Home 2.html" class="dropdown-item" id="nav-home2-link">
+                <div class="dropdown-item-title">Home 2 (Fleet & High-Voltage)</div>
+                <div class="dropdown-item-desc">Commercial Fleet & EV Architecture</div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link" id="nav-about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link" id="nav-services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link" id="nav-pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="technology.html" class="nav-link" id="nav-tech">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" id="nav-contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right: Utility Controls & Primary CTA -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button class="icon-toggle-btn" id="theme-toggle" aria-label="Toggle Dark and Light Mode"
+          title="Toggle Dark/Light Mode">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- RTL Button -->
+        <button class="icon-toggle-btn rtl-toggle-btn" id="rtl-toggle" aria-label="Toggle RTL and LTR"
+          title="Toggle RTL / LTR Direction">
+          <span class="rtl-text-indicator">RTL</span>
+        </button>
+
+        <!-- Primary CTA: Book a Service -->
+        <a href="#booking-service-modal" class="btn btn-primary header-cta-btn" id="header-book-btn"
+          data-open-booking="true" aria-haspopup="dialog" aria-expanded="false">
+          <span>Book a Service</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. PREMIUM HERO BANNER SECTION (Left Paratext, Clean Workshop Background) -->
+    <section class="hero-section" id="hero">
+      <div class="hero-bg-media">
+        <img src="assets/images/hero_emerald_workshop.jpg" alt="Master Auto Electrical Diagnostics and High-Voltage Workshop"
+          class="hero-bg-img" loading="eager">
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-ambient-glow"></div>
+      <div class="hero-ambient-glow-left"></div>
+      <div class="container hero-container">
+        <!-- Left: Paratext Content -->
+        <div class="hero-content">
+          <div class="hero-badge">
+            <span class="pulse-indicator"></span>
+            <span class="badge-text">Certified Master Auto Electricians &amp; Battery Lab</span>
+          </div>
+
+          <h1 class="hero-headline">
+            Advanced Auto Electrical &amp; <span class="hero-headline-highlight">Precision Battery</span> Engineering
+          </h1>
+
+          <p class="hero-paratext">
+            Specialized in micro-circuit troubleshooting, computerized ECU programming, AGM &amp; lithium battery
+            diagnostics, and heavy-duty alternator restoration. We resolve complex automotive electrical faults that
+            standard workshops miss.
+          </p>
+
+          <div class="hero-actions">
+            <button class="btn btn-primary" id="hero-book-btn">
+              <span>Book Diagnostics</span>
+              <svg class="btn-arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </button>
+            <a href="#services" class="btn btn-secondary" id="hero-services-btn">
+              <span>Explore Services</span>
+            </a>
+          </div>
+
+          <!-- Hero Metrics / Trust Points -->
+          <div class="hero-metrics-grid">
+            <div class="metric-card">
+              <div class="metric-number">15,000+</div>
+              <div class="metric-label">Batteries Tested</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">99.4%</div>
+              <div class="metric-label">Diagnostic Accuracy</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">36 Mo</div>
+              <div class="metric-label">Warranty Backing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MANDATORY ABOUT US SECTION -->
+    <section class="about-section" id="about-us">
+      <div class="about-ambient-glow" aria-hidden="true"></div>
+      <div class="container">
+        <!-- Section Header with Centered Symmetry -->
+        <div class="section-header text-center about-section-header">
+          <div class="about-pill-badge">
+            <span class="status-pulse-dot gold"></span>
+            <span>Master Auto Electricians &bull; Est. 1999</span>
+          </div>
+          <h2 class="section-title about-title">
+            Master Auto Electricians with <span class="highlight-gold">25+ Years of Circuit Expertise</span>
+          </h2>
+          <p class="section-subtitle about-subtitle">
+            Modern automobiles are sophisticated rolling computers. We blend high-frequency digital oscilloscopes, OEM
+            manufacturer scan protocols, and master craftsmanship to trace every microscopic wiring fault.
+          </p>
+        </div>
+
+        <!-- 3 Symmetrically Aligned Engineering Feature Pillars -->
+        <div class="about-grid">
+          <!-- Card 1: Diagnostic Pricing -->
+          <div class="about-feature-box" id="about-feature-1">
+            <!-- Full-Width Top Status Bar: Step Badge & Spec on Left, Live Pulse Indicator on Right -->
+            <div class="card-top-bar">
+              <div class="card-badge-suite">
+                <span class="card-step-badge">01</span>
+                <span class="card-spec-tag">Waveform Lab</span>
+              </div>
+              <div class="card-live-indicator">
+                <span class="dot-live"></span>
+                <span class="card-live-text">PicoScope® Verified</span>
+              </div>
+            </div>
+
+            <!-- Luxury Feature Icon Suite with Technical Standard Metadata -->
+            <div class="card-icon-suite">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M2 12h3l2-6 4 12 4-9 2 5h5" />
+                  <circle cx="11" cy="18" r="1.5" fill="currentColor" />
+                </svg>
+              </div>
+              <div class="card-spec-meta">
+                <span class="spec-meta-eyebrow">DIAGNOSTIC LAB</span>
+                <span class="spec-meta-val">Zero Blind Swaps</span>
+              </div>
+            </div>
+
+            <div class="card-divider"></div>
+
+            <div class="card-heading-group">
+              <h3 class="feature-title">Transparent Diagnostic Pricing</h3>
+              <p class="feature-kicker">Empirical Scope Tracing &bull; Zero Guesswork</p>
+            </div>
+
+            <p class="feature-desc">
+              We eliminate trial-and-error part swapping. Every diagnosis is verified with live 4-channel oscilloscope
+              traces and CAN-bus logs before repair quotes are issued.
+            </p>
+
+            <ul class="feature-check-list">
+              <li>
+                <span class="check-icon-wrap">
+                  <svg class="check-mini-svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                      d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                  </svg>
+                </span>
+                <span>PicoScope® 4-channel waveform trace verification</span>
+              </li>
+              <li>
+                <span class="check-icon-wrap">
+                  <svg class="check-mini-svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                      d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                  </svg>
+                </span>
+                <span>Firm flat-rate quote before bay work begins</span>
+              </li>
+            </ul>
+
+            <div class="card-telemetry-bar">
+              <div class="telemetry-item">
+                <span class="telemetry-lbl">Diagnostic Quote</span>
+                <span class="telemetry-val highlight-gold">100% Flat-Rate</span>
+              </div>
+              <div class="telemetry-sep"></div>
+              <div class="telemetry-item">
+                <span class="telemetry-lbl">Parts Policy</span>
+                <span class="telemetry-val highlight-green">0% Blind Swaps</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: EV & Hybrid (Centerpiece) -->
+          <div class="about-feature-box featured-pillar" id="about-feature-2">
+            <div class="featured-glow-edge"></div>
+            <!-- Full-Width Top Status Bar -->
+            <div class="card-top-bar">
+              <div class="card-badge-suite">
+                <span class="card-step-badge badge-emerald">02</span>
+                <span class="card-spec-tag tag-emerald">400V / 800V Lab</span>
+              </div>
+              <div class="card-live-indicator">
+                <span class="dot-live emerald"></span>
+                <span class="card-live-text">High-Voltage Safe</span>
+              </div>
+            </div>
+
+            <!-- Luxury Feature Icon Suite -->
+            <div class="card-icon-suite">
+              <div class="feature-icon icon-emerald">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+              </div>
+              <div class="card-spec-meta">
+                <span class="spec-meta-eyebrow">SAFETY STANDARD</span>
+                <span class="spec-meta-val val-emerald">IMI Level 4 Cert</span>
+              </div>
+            </div>
+
+            <div class="card-divider"></div>
+
+            <div class="card-heading-group">
+              <h3 class="feature-title">High-Voltage EV &amp; Hybrid Lab</h3>
+              <p class="feature-kicker kicker-emerald">Galvanic Isolation &bull; DC-DC Inverter Bench</p>
+            </div>
+
+            <p class="feature-desc">
+              Certified master specialists safely isolate and test high-voltage 400V/800V DC-DC converters, hybrid
+              inverter stacks, and 12V/48V dual-battery auxiliary sub-buses.
+            </p>
+
+            <ul class="feature-check-list">
+              <li>
+                <span class="check-icon-wrap">
+                  <svg class="check-mini-svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                      d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                  </svg>
+                </span>
+                <span>Galvanic safety isolation &amp; leak resistance check</span>
+              </li>
+              <li>
+                <span class="check-icon-wrap">
+                  <svg class="check-mini-svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                      d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                  </svg>
+                </span>
+                <span>Auxiliary 12V/48V dual-battery cell balancing</span>
+              </li>
+            </ul>
+
+            <div class="card-telemetry-bar">
+              <div class="telemetry-item">
+                <span class="telemetry-lbl">Bus Safety</span>
+                <span class="telemetry-val highlight-gold">800V Isolated</span>
+              </div>
+              <div class="telemetry-sep"></div>
+              <div class="telemetry-item">
+                <span class="telemetry-lbl">Master Guild</span>
+                <span class="telemetry-val highlight-green">Level 4 Cert</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3: Rapid Turnaround -->
+          <div class="about-feature-box" id="about-feature-3">
+            <!-- Full-Width Top Status Bar -->
+            <div class="card-top-bar">
+              <div class="card-badge-suite">
+                <span class="card-step-badge">03</span>
+                <span class="card-spec-tag">Rapid Dispatch</span>
+              </div>
+              <div class="card-live-indicator">
+                <span class="dot-live"></span>
+                <span class="card-live-text">In Stock &bull; Ready</span>
+              </div>
+            </div>
+
+            <!-- Luxury Feature Icon Suite with Speedometer Chrono SVG -->
+            <div class="card-icon-suite">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round">
+                  <circle cx="12" cy="12" r="9" />
+                  <path d="M12 7v5l3 3" />
+                  <path d="M5 12h2M17 12h2M12 17v2" />
+                  <circle cx="12" cy="12" r="1.5" fill="currentColor" />
+                </svg>
+              </div>
+              <div class="card-spec-meta">
+                <span class="spec-meta-eyebrow">LOGISTICS RESERVE</span>
+                <span class="spec-meta-val">200+ Active Cells</span>
+              </div>
+            </div>
+
+            <div class="card-divider"></div>
+
+            <div class="card-heading-group">
+              <h3 class="feature-title">Rapid Same-Day Bay Turnaround</h3>
+              <p class="feature-kicker">200+ Batteries Ready &bull; Rapid Dispatch</p>
+            </div>
+
+            <p class="feature-desc">
+              Maintaining 200+ OEM AGM, EFB and Lithium cells plus remanufactured alternators on-site, allowing 85% of
+              complex electrical repairs to finish and test same-day.
+            </p>
+
+            <ul class="feature-check-list">
+              <li>
+                <span class="check-icon-wrap">
+                  <svg class="check-mini-svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                      d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                  </svg>
+                </span>
+                <span>200+ OEM batteries and alternators in reserve</span>
+              </li>
+              <li>
+                <span class="check-icon-wrap">
+                  <svg class="check-mini-svg" viewBox="0 0 16 16" fill="currentColor">
+                    <path
+                      d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                  </svg>
+                </span>
+                <span>36-Month nationwide backing on all repairs</span>
+              </li>
+            </ul>
+
+            <div class="card-telemetry-bar">
+              <div class="telemetry-item">
+                <span class="telemetry-lbl">Bay Turnaround</span>
+                <span class="telemetry-val highlight-gold">85% Same-Day</span>
+              </div>
+              <div class="telemetry-sep"></div>
+              <div class="telemetry-item">
+                <span class="telemetry-lbl">Warranty Backing</span>
+                <span class="telemetry-val highlight-green">36 Mo Coverage</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Master Diagnostic Credibility Banner with Aligned Split Layout -->
+        <div class="about-credentials-banner">
+          <div class="banner-left-info">
+            <span class="banner-badge">ENTERPRISE LABORATORY CALIBRATION</span>
+            <h3 class="banner-title">Where Dealerships Guess, Our Oscilloscopes Prove.</h3>
+            <p class="banner-desc">
+              Equipped with factory dealer protocols (Bosch, VAG ODIS, BMW ISTA, Mercedes Xentry) alongside PicoScope
+              high-bandwidth oscilloscopes to pinpoint root electrical causes with surgical precision.
+            </p>
+            <div class="banner-actions">
+              <button type="button" class="btn btn-primary" data-open-booking="true" id="about-banner-book-btn">
+                <span>Book Diagnostic Bay</span>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </button>
+              <a href="technology.html" class="btn btn-secondary" id="about-banner-tech-link">
+                <span>Explore Lab Tech</span>
+              </a>
+            </div>
+          </div>
+          <div class="banner-stats-grid">
+            <div class="banner-stat-box">
+              <span class="stat-number">25<span class="stat-plus">+</span></span>
+              <span class="stat-label">Years Master Circuit Experience</span>
+            </div>
+            <div class="banner-stat-box">
+              <span class="stat-number">15,000<span class="stat-plus">+</span></span>
+              <span class="stat-label">Complex Diagnostics Resolved</span>
+            </div>
+            <div class="banner-stat-box">
+              <span class="stat-number">99.4<span class="stat-pct">%</span></span>
+              <span class="stat-label">First-Pass Diagnosis Accuracy</span>
+            </div>
+            <div class="banner-stat-box">
+              <span class="stat-number">100<span class="stat-pct">%</span></span>
+              <span class="stat-label">OEM Factory Scan Parity</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. 3 SERVICES CARDS SECTION -->
+    <section class="services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Core Electrical Capabilities</span>
+          <h2 class="section-title">Specialized Auto Electrical Solutions</h2>
+          <p class="section-subtitle">
+            Precision repairs engineered to OEM standards with guaranteed diagnostic accuracy and 36-month component
+            backing.
+          </p>
+        </div>
+
+        <div class="services-grid-3">
+          <!-- Service Card 1 -->
+          <div class="service-card" id="service-card-1">
+            <div class="service-image-box">
+              <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=700&q=80"
+                alt="Computerized vehicle diagnostics scanner and ECU analysis" class="service-img" loading="lazy">
+              <div class="service-img-overlay"></div>
+              <span class="service-badge">
+                <span class="badge-pulse-dot"></span>
+                <span>Scan &amp; Code Analysis</span>
+              </span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta-topbar">
+                <span class="service-category-tag">LAB DIAGNOSTICS</span>
+                <div class="service-price-chip">
+                  <span class="price-prefix">From</span>
+                  <span class="price-amount">$89</span>
+                </div>
+              </div>
+
+              <h3 class="service-title">Computerized Auto Diagnostics &amp; ECU Repair</h3>
+              <div class="service-card-divider"></div>
+
+              <p class="service-description">
+                Comprehensive CAN-bus communication scans, body control module (BCM) debugging, ECU parameter flashes,
+                and micro-wiring sensor calibration.
+              </p>
+
+              <ul class="service-features">
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>PicoScope 4-channel wave analysis</span>
+                </li>
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Phantom parasitic battery drain location</span>
+                </li>
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>ECU / TCM firmware adaptation</span>
+                </li>
+              </ul>
+
+              <div class="service-action-group">
+                <a href="service detail.html?id=1" class="btn btn-secondary service-detail-btn">
+                  <span>View Tech Spec</span>
+                </a>
+                <button class="btn btn-primary service-enquire-btn" data-service="Computer Diagnostics & ECU Repair"
+                  data-open-booking="true">
+                  <span>Book Bay</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 2 -->
+          <div class="service-card highlighted-service" id="service-card-2">
+            <div class="popular-ribbon">
+              <span class="ribbon-glow-dot"></span>
+              <span>MOST REQUESTED</span>
+            </div>
+            <div class="service-image-box">
+              <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=700&q=80"
+                alt="Automotive battery testing and replacement by technician" class="service-img" loading="lazy">
+              <div class="service-img-overlay"></div>
+              <span class="service-badge badge-emerald">
+                <span class="badge-pulse-dot emerald"></span>
+                <span>Load Tested</span>
+              </span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta-topbar">
+                <span class="service-category-tag tag-emerald">BATTERY HUB</span>
+                <div class="service-price-chip chip-emerald">
+                  <span class="price-prefix">From</span>
+                  <span class="price-amount">$129</span>
+                </div>
+              </div>
+
+              <h3 class="service-title">High-Performance Battery Testing &amp; Replacement</h3>
+              <div class="service-card-divider"></div>
+
+              <p class="service-description">
+                Cold Cranking Amperage (CCA) stress testing, conductance diagnostics, terminal anti-corrosion sealing,
+                and instant installation of AGM/EFB/Lithium packs.
+              </p>
+
+              <ul class="service-features">
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Midtronics conductance state-of-health test</span>
+                </li>
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Start-Stop AGM &amp; Hybrid auxiliary registration</span>
+                </li>
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Free eco-friendly old battery disposal</span>
+                </li>
+              </ul>
+
+              <div class="service-action-group">
+                <a href="service detail.html?id=2" class="btn btn-secondary service-detail-btn">
+                  <span>View Tech Spec</span>
+                </a>
+                <button class="btn btn-primary service-enquire-btn" data-service="High-Performance Battery Replacement"
+                  data-open-booking="true">
+                  <span>Book Bay</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Service Card 3 -->
+          <div class="service-card" id="service-card-3">
+            <div class="service-image-box">
+              <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=700&q=80"
+                alt="Alternator, starter motor and vehicle power charging system" class="service-img" loading="lazy">
+              <div class="service-img-overlay"></div>
+              <span class="service-badge">
+                <span class="badge-pulse-dot"></span>
+                <span>Charging System</span>
+              </span>
+            </div>
+            <div class="service-body">
+              <div class="service-meta-topbar">
+                <span class="service-category-tag">CHARGING DYNAMICS</span>
+                <div class="service-price-chip">
+                  <span class="price-prefix">From</span>
+                  <span class="price-amount">$149</span>
+                </div>
+              </div>
+
+              <h3 class="service-title">Alternator, Starter Motor &amp; Harness Overhaul</h3>
+              <div class="service-card-divider"></div>
+
+              <p class="service-description">
+                Precision bench load testing, internal voltage regulator rewiring, rectifier diode pack replacements,
+                solenoid rebuilds, and heavy-duty grounding.
+              </p>
+
+              <ul class="service-features">
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Bench dynamometer alternator stress testing</span>
+                </li>
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Starter solenoid &amp; bendix gear rebuilding</span>
+                </li>
+                <li>
+                  <span class="check-wrap">
+                    <svg class="check-icon" viewBox="0 0 16 16" fill="currentColor">
+                      <path
+                        d="M13.485 3.515a1 1 0 0 1 0 1.414l-7 7a1 1 0 0 1-1.414 0l-3.5-3.5a1 1 0 1 1 1.414-1.414L6 10.086l6.293-6.293a1 1 0 0 1 1.414 0z" />
+                    </svg>
+                  </span>
+                  <span>Complete engine loom &amp; fuse block restoration</span>
+                </li>
+              </ul>
+
+              <div class="service-action-group">
+                <a href="service detail.html?id=3" class="btn btn-secondary service-detail-btn">
+                  <span>View Tech Spec</span>
+                </a>
+                <button class="btn btn-primary service-enquire-btn" data-service="Alternator & Starter Motor Rebuild"
+                  data-open-booking="true">
+                  <span>Book Bay</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. TIMELINE SECTION (Step-by-step diagnostic & repair workflow) -->
+    <section class="timeline-section" id="timeline">
+      <div class="container">
+        <div class="section-header text-center">
+          <div class="timeline-header-tag">
+            <span class="v-header-pulse"></span>
+            <span>Atelier Diagnostic Protocol</span>
+          </div>
+          <h2 class="section-title">Our 4-Phase Precision Repair Workflow</h2>
+          <p class="section-subtitle">
+            Every electrical system is inspected with surgical accuracy to eliminate recurring faults and guarantee
+            permanent reliability.
+          </p>
+        </div>
+
+        <!-- Streamlined Luxury Vertical Timeline -->
+        <div class="timeline-v-stream">
+          <div class="timeline-v-spine"></div>
+
+          <!-- Phase 01 -->
+          <div class="timeline-v-step step-left" data-step="1">
+            <div class="v-step-card">
+              <div class="v-step-thumb">
+                <img src="assets/images/timeline_atelier_1_telemetry.jpg" alt="Pagani Atelier Live Telemetry Diagnostics"
+                  class="v-thumb-img" loading="lazy">
+                <span class="v-thumb-badge"><span class="v-live-dot"></span>Pagani Telemetry</span>
+              </div>
+              <div class="v-step-body">
+                <div class="v-step-head">
+                  <span class="v-step-phase">Phase 01</span>
+                  <span class="v-step-status">Diagnostics</span>
+                </div>
+                <h3 class="v-step-title">Digital Multi-Scan &amp; Scope</h3>
+                <p class="v-step-desc">
+                  OEM scanners capture freeze-frame DTCs and microsecond CAN/LIN bus transients.
+                </p>
+                <div class="v-step-meta">
+                  <span class="v-pill">OBD-II &amp; Scope</span>
+                  <span class="v-time">45&ndash;60 Mins</span>
+                </div>
+              </div>
+            </div>
+            <div class="v-step-node-col">
+              <div class="v-step-connector left-connector"></div>
+              <div class="v-step-node">
+                <span class="v-node-num">01</span>
+              </div>
+            </div>
+            <div class="v-step-empty"></div>
+          </div>
+
+          <!-- Phase 02 -->
+          <div class="timeline-v-step step-right" data-step="2">
+            <div class="v-step-empty"></div>
+            <div class="v-step-node-col">
+              <div class="v-step-node">
+                <span class="v-node-num">02</span>
+              </div>
+              <div class="v-step-connector right-connector"></div>
+            </div>
+            <div class="v-step-card">
+              <div class="v-step-thumb">
+                <img src="assets/images/timeline_atelier_2_thermal.jpg" alt="Optic-Therm 9000 Robotic Laser Thermal Scanner"
+                  class="v-thumb-img" loading="lazy">
+                <span class="v-thumb-badge"><span class="v-live-dot"></span>Optic-Therm 9000</span>
+              </div>
+              <div class="v-step-body">
+                <div class="v-step-head">
+                  <span class="v-step-phase">Phase 02</span>
+                  <span class="v-step-status">Thermal Scan</span>
+                </div>
+                <h3 class="v-step-title">Parasitic Draw &amp; Heat Map</h3>
+                <p class="v-step-desc">
+                  Infrared laser scans map fuse blocks and harness pins to isolate sub-milliamp drains.
+                </p>
+                <div class="v-step-meta">
+                  <span class="v-pill">Laser Thermography</span>
+                  <span class="v-time">30&ndash;45 Mins</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Phase 03 -->
+          <div class="timeline-v-step step-left" data-step="3">
+            <div class="v-step-card">
+              <div class="v-step-thumb">
+                <img src="assets/images/timeline_atelier_3_overhaul.jpg" alt="Master Artisan Alternator Overhaul"
+                  class="v-thumb-img" loading="lazy">
+                <span class="v-thumb-badge"><span class="v-live-dot"></span>Gold Dyno Rebuild</span>
+              </div>
+              <div class="v-step-body">
+                <div class="v-step-head">
+                  <span class="v-step-phase">Phase 03</span>
+                  <span class="v-step-status">Restoration</span>
+                </div>
+                <h3 class="v-step-title">OEM Overhaul &amp; BMS Code</h3>
+                <p class="v-step-desc">
+                  Alternator stator overhaul, gold connector re-crimping, and vehicle ECU BMS coding.
+                </p>
+                <div class="v-step-meta">
+                  <span class="v-pill">BMS Calibrated</span>
+                  <span class="v-time">2&ndash;3 Hours</span>
+                </div>
+              </div>
+            </div>
+            <div class="v-step-node-col">
+              <div class="v-step-connector left-connector"></div>
+              <div class="v-step-node">
+                <span class="v-node-num">03</span>
+              </div>
+            </div>
+            <div class="v-step-empty"></div>
+          </div>
+
+          <!-- Phase 04 -->
+          <div class="timeline-v-step step-right" data-step="4">
+            <div class="v-step-empty"></div>
+            <div class="v-step-node-col">
+              <div class="v-step-node">
+                <span class="v-node-num">04</span>
+              </div>
+              <div class="v-step-connector right-connector"></div>
+            </div>
+            <div class="v-step-card">
+              <div class="v-step-thumb">
+                <img src="assets/images/timeline_atelier_4_dyno.jpg" alt="Dynamometer Load Testing & Certification"
+                  class="v-thumb-img" loading="lazy">
+                <span class="v-thumb-badge"><span class="v-live-dot"></span>Dyno 100% Pass</span>
+              </div>
+              <div class="v-step-body">
+                <div class="v-step-head">
+                  <span class="v-step-phase">Phase 04</span>
+                  <span class="v-step-status">Certified</span>
+                </div>
+                <h3 class="v-step-title">Load Validation &amp; 36-Mo Cert</h3>
+                <p class="v-step-desc">
+                  150A dynamic load stress certification with signed 36-month electrical warranty.
+                </p>
+                <div class="v-step-meta">
+                  <span class="v-pill">36-Mo Warranty</span>
+                  <span class="v-time">Pass Certified</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- PRICING SECTION -->
+    <section class="pricing-section" id="pricing">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Clear Upfront Pricing</span>
+          <h2 class="section-title">Transparent Diagnostic &amp; Repair Packages</h2>
+          <p class="section-subtitle">
+            Flat-rate transparent rates with zero hidden workshop fees. All repairs include detailed digital diagnostic
+            reports.
+          </p>
+        </div>
+
+        <div class="pricing-grid-3">
+          <!-- Plan 1 -->
+          <div class="pricing-card" id="pricing-plan-1">
+            <div class="plan-header">
+              <h3 class="plan-name">Digital Health Scan</h3>
+              <p class="plan-desc">Ideal for check engine lights or starting hiccups</p>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount">69</span>
+                <span class="period">/ vehicle</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li>Full OBD-II scan &amp; module fault clear</li>
+              <li>Terminal battery conductance test</li>
+              <li>Alternator voltage regulator probe</li>
+              <li>Starter motor draw measurement</li>
+              <li>Printout &amp; digital health summary</li>
+            </ul>
+            <div class="plan-action">
+              <button class="btn btn-secondary full-width book-plan-btn" data-plan="Digital Health Scan - $69">
+                <span>Select Plan</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan 2 (Popular Highlighted) -->
+          <div class="pricing-card popular-plan" id="pricing-plan-2">
+            <div class="popular-tag">Most Popular</div>
+            <div class="plan-header">
+              <h3 class="plan-name">Complete Battery &amp; Charging</h3>
+              <p class="plan-desc">Full electrical system testing &amp; service overhaul</p>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount">149</span>
+                <span class="period">/ vehicle</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li>Everything in Digital Health Scan</li>
+              <li>Parasitic overnight drain milliamp test</li>
+              <li>Oscilloscope alternator ripple waveform test</li>
+              <li>Battery terminal clean &amp; corrosion inhibitor</li>
+              <li>ECU battery registration / adaptation</li>
+              <li>12-Month Roadside Assistance cover</li>
+            </ul>
+            <div class="plan-action">
+              <button class="btn btn-primary full-width book-plan-btn" data-plan="Complete Battery & Charging - $149">
+                <span>Select Plan</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Plan 3 -->
+          <div class="pricing-card" id="pricing-plan-3">
+            <div class="plan-header">
+              <h3 class="plan-name">Master Micro-Circuit Lab</h3>
+              <p class="plan-desc">For complex phantom drains &amp; wiring harness faults</p>
+              <div class="plan-price">
+                <span class="currency">$</span>
+                <span class="amount">249</span>
+                <span class="period">/ vehicle</span>
+              </div>
+            </div>
+            <ul class="plan-features">
+              <li>Full 4-Channel PicoScope bus trace</li>
+              <li>FLIR thermal imaging of all fuse blocks</li>
+              <li>CAN / LIN-bus network signal integrity scan</li>
+              <li>Module communication fault trace</li>
+              <li>Dedicated senior master auto electrician</li>
+              <li>Lifetime warranty on all harness repairs</li>
+            </ul>
+            <div class="plan-action">
+              <button class="btn btn-secondary full-width book-plan-btn" data-plan="Master Micro-Circuit Lab - $249">
+                <span>Select Plan</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- 6. MASTER ENGINEERING JOURNAL & FIELD LOGS SECTION -->
+    <section class="journal-section" id="journal">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Master Engineering Journal</span>
+          <h2 class="section-title">Automotive Electrical Insights &amp; Case Studies</h2>
+          <p class="section-subtitle">
+            Deep-dive technical articles, oscilloscope trace analyses, and battery lab engineering logs from our
+            certified master auto electricians.
+          </p>
+        </div>
+
+        <div class="journal-grid">
+          <!-- Article 1 -->
+          <article class="journal-card">
+            <div class="journal-media">
+              <img src="assets/images/index_journal_canbus.jpg" alt="CAN-Bus Micro-Diagnostics Oscilloscope Trace"
+                class="journal-img" loading="lazy">
+              <span class="journal-category-badge">CAN-Bus Diagnostics</span>
+            </div>
+            <div class="journal-body">
+              <div class="journal-meta">
+                <span class="journal-date">October 2026</span>
+                <span class="journal-dot">&bull;</span>
+                <span class="journal-read">6 Min Read</span>
+              </div>
+              <h3 class="journal-card-title">
+                <a href="service detail.html?id=1">Oscilloscope Diagnostics: Tracing Elusive Intermittent CAN-Bus
+                  Faults</a>
+              </h3>
+              <p class="journal-excerpt">
+                How 4-channel PicoScope waveform captures expose ground drops, signal reflections, and corrupted data
+                packets that standard OBD-II code scanners cannot detect.
+              </p>
+              <div class="journal-footer">
+                <div class="journal-author">
+                  <div class="author-badge-mini">MV</div>
+                  <span class="author-name-text">Marcus Vance &bull; Master Tech</span>
+                </div>
+                <a href="service detail.html?id=1" class="journal-read-link">Read Log &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 2 -->
+          <article class="journal-card">
+            <div class="journal-media">
+              <img src="assets/images/index_journal_bms.jpg" alt="Battery Chemistry and BMS Coding" class="journal-img"
+                loading="lazy">
+              <span class="journal-category-badge">Battery Lab &amp; BMS</span>
+            </div>
+            <div class="journal-body">
+              <div class="journal-meta">
+                <span class="journal-date">September 2026</span>
+                <span class="journal-dot">&bull;</span>
+                <span class="journal-read">5 Min Read</span>
+              </div>
+              <h3 class="journal-card-title">
+                <a href="service detail.html?id=2">Why Modern AGM &amp; Lithium Batteries Require Mandatory BMS
+                  Registration</a>
+              </h3>
+              <p class="journal-excerpt">
+                An engineering breakdown of smart alternator charging curves and why unregistered replacement batteries
+                degrade prematurely from continuous overcharging.
+              </p>
+              <div class="journal-footer">
+                <div class="journal-author">
+                  <div class="author-badge-mini">SJ</div>
+                  <span class="author-name-text">Sarah Jenkins &bull; Lab Director</span>
+                </div>
+                <a href="service detail.html?id=2" class="journal-read-link">Read Log &rarr;</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 3 -->
+          <article class="journal-card">
+            <div class="journal-media">
+              <img src="assets/images/index_journal_ev.jpg" alt="High-Voltage EV Powertrain Isolation Testing"
+                class="journal-img" loading="lazy">
+              <span class="journal-category-badge">High-Voltage EV</span>
+            </div>
+            <div class="journal-body">
+              <div class="journal-meta">
+                <span class="journal-date">August 2026</span>
+                <span class="journal-dot">&bull;</span>
+                <span class="journal-read">8 Min Read</span>
+              </div>
+              <h3 class="journal-card-title">
+                <a href="service detail.html?id=5">High-Voltage Isolation Testing on 400V/800V EV Powertrains</a>
+              </h3>
+              <p class="journal-excerpt">
+                Applying 1,000V Megohmmeter insulation resistance sweeps to resolve vehicle isolation faults without
+                replacing $15,000 factory battery packs.
+              </p>
+              <div class="journal-footer">
+                <div class="journal-author">
+                  <div class="author-badge-mini">DT</div>
+                  <span class="author-name-text">David Thorne &bull; IMI L4 Engineer</span>
+                </div>
+                <a href="service detail.html?id=5" class="journal-read-link">Read Log &rarr;</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. TESTIMONIALS SECTION -->
+    <section class="testimonials-section" id="testimonials">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Verified Customer Experiences</span>
+          <h2 class="section-title">Trusted by Everyday Drivers &amp; Performance Enthusiasts</h2>
+          <p class="section-subtitle">
+            See how our certified auto electricians solved elusive electrical glitches and battery failures for
+            motorists across the region.
+          </p>
+        </div>
+
+        <div class="testimonials-grid-3">
+
+          <!-- Testimonial 1: Marcus Vance -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "My BMW M4 had an unexplained overnight battery drain that two dealership service departments couldn't
+              identify. VOLTERRA diagnosed a faulty comfort access module in 45 minutes using thermal imaging.
+              Outstanding precision!"
+            </p>
+            <div class="testimonial-author">
+              <img src="assets/images/team_marcus.jpg" alt="Marcus Vance" class="author-avatar-img">
+              <div class="author-info">
+                <div class="author-name-row">
+                  <span class="author-name">Marcus Vance</span>
+                  <span class="author-verified-tick" title="Verified Customer">✓</span>
+                </div>
+                <div class="author-vehicle">BMW M4 &bull; Parasitic Drain &amp; AGM Battery</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2: Sarah Jenkins -->
+          <div class="testimonial-card highlighted-testimonial">
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "We manage a fleet of 18 delivery vans. When our alternators began failing under extreme heat, VOLTERRA
+              re-engineered our charging systems with heavy-duty diodes. Zero breakdowns in the last 14 months. Truly
+              indispensable partners."
+            </p>
+            <div class="testimonial-author">
+              <img src="assets/images/team_elena.jpg" alt="Sarah Jenkins" class="author-avatar-img">
+              <div class="author-info">
+                <div class="author-name-row">
+                  <span class="author-name">Sarah Jenkins</span>
+                  <span class="author-verified-tick" title="Verified Corporate Partner">✓</span>
+                </div>
+                <div class="author-vehicle">Fleet Director &bull; 18x Mercedes Sprinter Vans</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3: David Thorne -->
+          <div class="testimonial-card">
+            <div class="testimonial-stars" aria-label="5 stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "Stranded in the downtown parking garage with dead electronics. VOLTERRA's mobile service truck arrived
+              within 25 minutes, tested the starter circuit, and installed a brand new AGM battery on the spot with
+              complete ECU registration."
+            </p>
+            <div class="testimonial-author">
+              <img src="assets/images/team_david.jpg" alt="David Thorne" class="author-avatar-img">
+              <div class="author-info">
+                <div class="author-name-row">
+                  <span class="author-name">David Thorne</span>
+                  <span class="author-verified-tick" title="Verified Customer">✓</span>
+                </div>
+                <div class="author-vehicle">Toyota Land Cruiser &bull; Mobile Roadside Dispatch</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PREMIUM MASTER CALL-TO-ACTION (CTA) CARDS SECTION
+         Architected for Ultra-Luxury Automotive Engineering Aesthetics
+         ========================================================================== -->
+    <!-- ==========================================================================
+         PREMIUM CTA CARD - IMAGE 1 REFERENCE (HOME 1)
+         Horizontal floating luxury card with checklist, pill buttons & circular photo
+         ========================================================================== -->
+    <section class="premium-cta-section" id="premium-cta-section">
+      <div class="container">
+        <div class="cta-card-home-banner">
+          <!-- Left: Narrative, Checklist & Actions -->
+          <div class="cta-home-content">
+            <div class="cta-home-badge">
+              <span class="cta-home-badge-dot"></span>
+              <span>VIP ATELIER ACCESS &bull; MASTER DIAGNOSTICS</span>
+            </div>
+            <h2 class="cta-home-title">
+              Transform Your Vehicle with
+              <em>VOLTERRA's Master Diagnostic Experience</em>
+            </h2>
+
+            <ul class="cta-home-checklist">
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="cta-check-icon">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>Free safety electrical check &amp; battery conductance test on first visit</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="cta-check-icon">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>30-Day complete driver satisfaction &amp; repair guarantee</span>
+              </li>
+              <li>
+                <svg viewBox="0 0 20 20" fill="currentColor" class="cta-check-icon">
+                  <path fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd" />
+                </svg>
+                <span>Personalized master technician &amp; vehicle diagnostic matching</span>
+              </li>
+            </ul>
+
+            <div class="cta-home-actions">
+              <a href="book a service.html" class="cta-btn-gold" id="home-cta-journey-btn">
+                <span>Start My Journey</span>
+                <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                  <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+                </svg>
+              </a>
+              <a href="service.html" class="cta-btn-soft" id="home-cta-explore-btn">
+                <span>Explore Services</span>
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10" />
+                  <line x1="2" y1="12" x2="22" y2="12" />
+                  <path
+                    d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+                </svg>
+              </a>
+            </div>
+
+            <p class="cta-home-guarantee">No commitment. Cancel anytime. 100% satisfaction guaranteed.</p>
+          </div>
+
+          <!-- Right: Concentric Circular Visual Frame (Exactly as Image 1) -->
+          <div class="cta-home-visual">
+            <div class="cta-concentric-circle">
+              <div class="cta-concentric-inner">
+                <img src="assets/images/home1_luxury_lab.jpg" alt="VOLTERRA Master Auto Electrical Lab"
+                  class="cta-circle-img" loading="lazy">
+              </div>
+              <div class="cta-circle-floating-chip">
+                <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polygon
+                    points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2" />
+                </svg>
+                <span>OEM SPEC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 7. FOOTER SECTION (Strict 4 Columns) -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-grid-4">
+        <!-- Column 1: Brand Name, Paratext, Social Icons -->
+        <div class="footer-column footer-brand-column">
+          <div class="brand-logo footer-logo">
+            <span class="logo-icon-wrap">
+              <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical"
+                class="brand-logo-img">
+            </span>
+            <div class="brand-text">
+              <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span
+                  class="brand-title-secondary">ERRA</span></span>
+              <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+            </div>
+          </div>
+          <p class="footer-brand-text">
+            Crafting master-grade automotive electrical diagnostics, precision battery solutions, and heavy-duty
+            charging systems. Certified master workshops.
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
+              </svg>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="social-link" aria-label="X Twitter" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Services -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="service.html">Heavy Starter &amp; Alternator Rebuild</a></li>
+            <li><a href="service.html">Lithium &amp; AGM Pack Balancing</a></li>
+            <li><a href="service.html">CAN / LIN / FlexRay Diagnostics</a></li>
+            <li><a href="service.html">Parasitic Draw Elimination</a></li>
+            <li><a href="service.html">Electric Steering &amp; Chassis Sensors</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Additional Links -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Additional Links</h4>
+          <ul class="footer-links">
+            <li><a href="technology.html">Enterprise Tech &amp; Partners</a></li>
+            <li><a href="pricing.html">Diagnostic Process Flow</a></li>
+            <li><a href="Pricing detail.html?id=1">Pricing &amp; Warranty Packages</a></li>
+            <li><a href="About.html">About VoltEdge</a></li>
+            <li><a href="contact.html">Contact Workshop</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact & Support (Matching Exact Format) -->
+        <div class="footer-column footer-contact-column">
+          <h4 class="footer-heading">Contact &amp; Support</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Timing:</span>
+                <span class="contact-row-val">Daily: 07:30 AM – 06:30 PM</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Location:</span>
+                <span class="contact-row-val">742 Ampere Blvd, Industrial Park, Suite 104</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Mail:</span>
+                <a href="mailto:support@voltedge-auto.com" class="footer-contact-link">support@voltedge-auto.com</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                </path>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Support:</span>
+                <a href="tel:+18005558658" class="footer-contact-link">+1 (800) 555-8658</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          &copy; 2026 VoltEdge Auto Electrical Repair Shop. All rights reserved.
+        </div>
+        <div class="legal-links">
+          <a href="#terms">Terms &amp; Conditions</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#privacy">Privacy Policy</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#disclaimer">Safety Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- AUTH / LOGIN MODAL (Strict Guideline 8 Compliance) -->
+  <div class="modal-overlay" id="login-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-labelledby="login-modal-title">
+      <div class="modal-top-bar">
+        <div class="modal-card-logo">
+          <span class="logo-icon-wrap mini">
+            <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+          </span>
+          <span class="modal-logo-text">VOLTERRA Customer Portal</span>
+        </div>
+        <button class="modal-close-btn" id="close-login-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-content-body">
+        <h3 class="auth-modal-title" id="login-modal-title">Sign In to Your Account</h3>
+        <p class="auth-modal-subtitle">Access your vehicle's digital voltage logs, warranties, and bay appointments.</p>
+
+        <!-- Social Sign-in Options per guideline 8 -->
+        <div class="social-auth-buttons">
+          <button type="button" class="btn-social" id="btn-google-login">
+            <svg class="social-svg" viewBox="0 0 24 24">
+              <path fill="#4285F4"
+                d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" />
+              <path fill="#34A853"
+                d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" />
+              <path fill="#FBBC05"
+                d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z" />
+              <path fill="#EA4335"
+                d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z" />
+            </svg>
+            <span>Continue with Google</span>
+          </button>
+          <button type="button" class="btn-social" id="btn-apple-login">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path
+                d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.87c.66-.82 1.11-1.95.99-3.08-1 .04-2.18.67-2.88 1.49-.61.71-1.15 1.87-1.01 2.98 1.11.09 2.24-.58 2.9-1.39z" />
+            </svg>
+            <span>Continue with Apple</span>
+          </button>
+        </div>
+
+        <div class="auth-separator">
+          <span>Or sign in with email</span>
+        </div>
+
+        <!-- Vertical inputs per guideline 8 -->
+        <form id="login-form" class="auth-vertical-form">
+          <div class="form-field">
+            <label for="login-email" class="form-label">Email Address</label>
+            <input type="email" id="login-email" class="form-input" placeholder="name@domain.com" required>
+          </div>
+
+          <div class="form-field">
+            <label for="login-password" class="form-label">Password</label>
+            <div class="password-input-wrapper">
+              <input type="password" id="login-password" class="form-input" placeholder="••••••••" required>
+              <button type="button" class="eye-toggle-btn" id="toggle-password-visibility"
+                aria-label="Toggle password visibility">
+                <svg class="eye-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" />
+                  <circle cx="12" cy="12" r="3" />
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <!-- Remember Me and Forgot Password on the SAME line per guideline 8 -->
+          <div class="form-inline-options">
+            <label class="checkbox-container">
+              <input type="checkbox" id="remember-me" checked>
+              <span class="checkbox-mark"></span>
+              <span class="checkbox-label">Remember Me</span>
+            </label>
+            <a href="#forgot" class="forgot-link" id="forgot-password-link">Forgot Password?</a>
+          </div>
+
+          <!-- CTA button matching input width per guideline 8 -->
+          <button type="submit" class="btn btn-primary full-width auth-submit-btn">
+            <span>Sign In to Dashboard</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: COMING SOON / 404 DEMONSTRATION -->
+  <div class="modal-overlay" id="general-modal" aria-hidden="true">
+    <div class="modal-card mini-modal" role="dialog">
+      <div class="modal-top-bar">
+        <h3 class="modal-card-title" id="general-modal-title">Page Status</h3>
+        <button class="modal-close-btn" id="close-general-modal">&times;</button>
+      </div>
+      <div class="modal-content-body text-center">
+        <div class="modal-icon-badge" id="general-modal-icon">⚡</div>
+        <h4 id="general-modal-heading" class="general-modal-h">Coming Soon</h4>
+        <button class="btn btn-primary" id="general-modal-ok-btn">Understood</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: FULL-SCREEN ULTRA-PREMIUM AUTOMOTIVE CLIENT BOOKING ATELIER -->
+  <div class="modal-overlay booking-modal-overlay fullscreen-atelier-mode" id="booking-service-modal" aria-hidden="true"
+    role="dialog" aria-labelledby="booking-card-main-title">
+    <div class="booking-suite-container fullscreen-suite" id="booking-card-container">
+
+      <!-- Top Ambient Decorative Glows -->
+      <div class="booking-card-glow"></div>
+      <div class="booking-halo-spot"></div>
+
+      <!-- TOP HEADER: 3-POINT LUXURY SYMMETRY WITH CENTERED BRAND CREST -->
+      <header class="booking-atelier-header">
+        <div class="atelier-header-left">
+          <span class="atelier-live-dot"></span>
+          <span class="atelier-loc-tag">VOLTERRA ATELIER • HIGH-VOLTAGE LAB #02</span>
+        </div>
+
+        <div class="booking-brand-hero-center">
+          <div class="booking-brand-crest">
+            <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical"
+              class="booking-brand-logo-img">
+          </div>
+          <div class="booking-brand-text-center">
+            <div class="booking-brand-title" dir="ltr">
+              <span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span>
+            </div>
+            <div class="booking-brand-tagline">BATTERY &amp; AUTO ELECTRICAL REPAIR SHOP</div>
+          </div>
+          <div class="booking-top-meta-strip">
+            <div class="booking-bay-status-badge">
+              <span class="pulse-indicator-gold"></span>
+              <span>MASTER DIAGNOSTIC BAYS • LIVE CLIENT RESERVATION</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="atelier-header-right">
+          <button class="modal-close-btn booking-close-btn" id="close-booking-service-modal"
+            aria-label="Close Booking Dialog" title="Close booking suite">
+            <span class="close-kbd-hint">ESC</span>
+            <svg viewBox="0 0 24 24" width="18" height="18" stroke="currentColor" stroke-width="2.2" fill="none"
+              stroke-linecap="round" stroke-linejoin="round">
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!-- Main Booking Split Workspace (Dual-Chassis Symmetric Atelier) -->
+      <div id="booking-main-workspace" class="booking-main-workspace">
+
+        <!-- LEFT COLUMN: CINEMATIC DIAGNOSTIC BENCH & ANIMATED VISUAL STAGE (Chassis 1) -->
+        <div class="booking-visual-stage">
+          <div class="stage-frame-wrapper atelier-chassis-frame">
+            <!-- Stage Live Status Telemetry HUD -->
+            <div class="stage-header-hud">
+              <span class="stage-hud-badge live-active">
+                <span class="hud-blink-dot"></span>
+                BAY #02 • ACTIVE DIAGNOSTIC BENCH
+              </span>
+              <span class="stage-hud-badge telemetry-val">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                </svg>
+                14.42V • PICO OSCILLOSCOPE ACTIVE
+              </span>
+            </div>
+
+            <!-- The Hero Image Viewport with Animated Laser Scanning Line (Flex: 1 fills height!) -->
+            <div class="stage-image-viewport">
+              <img id="booking-stage-img" src="assets/images/tech_cinematic_lab.jpg" alt="Master Diagnostic Bench"
+                class="stage-featured-img">
+
+              <!-- Continuous Animated Laser Scanning Beam -->
+              <div class="stage-laser-scanner" aria-hidden="true">
+                <div class="laser-beam-line"></div>
+                <div class="laser-glow-gradient"></div>
+              </div>
+
+              <!-- High-Tech Telemetry Stats Floating Overlay -->
+              <div class="stage-hud-stats-overlay" aria-hidden="true">
+                <div class="hud-metric-pill">
+                  <span class="metric-val">99.8%</span>
+                  <span class="metric-label">BATT SOH HEALTH</span>
+                </div>
+                <div class="hud-metric-pill">
+                  <span class="metric-val">850 CCA</span>
+                  <span class="metric-label">CRANKING POWER</span>
+                </div>
+                <div class="hud-metric-pill">
+                  <span class="metric-val">&lt;0.12V</span>
+                  <span class="metric-label">RIPPLE VOLTAGE</span>
+                </div>
+              </div>
+
+              <!-- Animated Oscilloscope Waveform at the base -->
+              <div class="stage-waveform-overlay" aria-hidden="true">
+                <svg class="oscilloscope-svg" viewBox="0 0 500 40" preserveAspectRatio="none">
+                  <path class="wave-path"
+                    d="M0,20 L80,20 L95,8 L105,32 L115,14 L125,26 L135,20 L240,20 L255,5 L268,35 L280,12 L290,28 L300,20 L400,20 L415,8 L428,32 L440,15 L450,25 L500,20" />
+                </svg>
+              </div>
+
+              <!-- Interactive Caption Badge -->
+              <div class="stage-caption-badge" id="booking-stage-caption">
+                <span class="caption-icon">⚡</span>
+                <span class="caption-text">Master Diagnostic Bench: Multi-Point Electrical Telemetry &amp; Load
+                  Calibration</span>
+              </div>
+            </div>
+
+            <!-- Interactive Service Switcher with Real Animated Previews -->
+            <div class="stage-service-switcher">
+              <div class="switcher-headline">
+                <span>SPECIALIZED WORKSHOP BENCHES</span>
+                <span class="switcher-hint">Click to switch live bay view</span>
+              </div>
+              <div class="service-preview-grid">
+                <button type="button" class="service-preview-card active" data-service-val="Battery Replacement ($129)"
+                  data-service-img="assets/images/battery_testing.jpg"
+                  data-caption="High-Performance AGM &amp; Lithium Battery Replacement Bench ($129)">
+                  <div class="preview-thumb-wrap">
+                    <img src="assets/images/battery_testing.jpg" alt="Battery Bench" class="preview-thumb-img">
+                    <span class="preview-pulse-tag">AGM</span>
+                  </div>
+                  <div class="preview-info">
+                    <span class="preview-title">AGM Battery Bench</span>
+                    <span class="preview-price">$129 • 45 Min Bay</span>
+                  </div>
+                </button>
+
+                <button type="button" class="service-preview-card" data-service-val="Computer Diagnostics ($89)"
+                  data-service-img="assets/images/electrical_diagnostics.jpg"
+                  data-caption="Master Computer Diagnostics, PicoScope 8-Channel &amp; ECU Fault Scan ($89)">
+                  <div class="preview-thumb-wrap">
+                    <img src="assets/images/electrical_diagnostics.jpg" alt="ECU Diagnostics" class="preview-thumb-img">
+                    <span class="preview-pulse-tag">SCAN</span>
+                  </div>
+                  <div class="preview-info">
+                    <span class="preview-title">ECU &amp; PicoScope</span>
+                    <span class="preview-price">$89 • Instant Code</span>
+                  </div>
+                </button>
+
+                <button type="button" class="service-preview-card" data-service-val="Alternator &amp; Starter ($149)"
+                  data-service-img="assets/images/alternator_repair.jpg"
+                  data-caption="Heavy-Duty Alternator &amp; Starter Motor Oscilloscope Dyno Overhaul ($149)">
+                  <div class="preview-thumb-wrap">
+                    <img src="assets/images/alternator_repair.jpg" alt="Alternator Repair" class="preview-thumb-img">
+                    <span class="preview-pulse-tag">DYNO</span>
+                  </div>
+                  <div class="preview-info">
+                    <span class="preview-title">Alternator &amp; Starter</span>
+                    <span class="preview-price">$149 • High-Amp</span>
+                  </div>
+                </button>
+
+                <button type="button" class="service-preview-card" data-service-val="EV High-Voltage Isolation ($199)"
+                  data-service-img="assets/images/detail_service_5_ev.jpg"
+                  data-caption="Hybrid &amp; Full EV High-Voltage Isolation &amp; Battery Health Diagnostic ($199)">
+                  <div class="preview-thumb-wrap">
+                    <img src="assets/images/detail_service_5_ev.jpg" alt="EV High Voltage" class="preview-thumb-img">
+                    <span class="preview-pulse-tag">800V</span>
+                  </div>
+                  <div class="preview-info">
+                    <span class="preview-title">EV / Hybrid Isolation</span>
+                    <span class="preview-price">$199 • Certified</span>
+                  </div>
+                </button>
+              </div>
+            </div>
+
+            <!-- Client Trust Quality Strip (Anchored at the bottom) -->
+            <div class="stage-guarantee-strip">
+              <div class="stage-strip-item">
+                <span class="strip-icon">🛡️</span>
+                <span class="strip-label">24-Month Warranty</span>
+              </div>
+              <div class="stage-strip-item">
+                <span class="strip-icon">⚡</span>
+                <span class="strip-label">OEM Coding Verified</span>
+              </div>
+              <div class="stage-strip-item">
+                <span class="strip-icon">🏆</span>
+                <span class="strip-label">Master Electricians</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT COLUMN: EXECUTIVE CLIENT BOOKING CONSOLE (Chassis 2 - Matched & Symmetrical) -->
+        <div class="booking-console-pane">
+          <div class="console-frame-wrapper atelier-chassis-frame">
+            <!-- Console Live Status Telemetry HUD (Matches Left Stage HUD Baseline) -->
+            <div class="stage-header-hud console-header-hud">
+              <span class="stage-hud-badge live-active">
+                <span class="hud-blink-dot"></span>
+                STEP-BY-STEP CLIENT VERIFICATION
+              </span>
+              <span class="stage-hud-badge telemetry-val">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+                </svg>
+                PRIORITY ALLOCATION PROTOCOL • 256-BIT SSL
+              </span>
+            </div>
+
+            <form id="client-booking-form" class="booking-form" novalidate>
+
+              <!-- Section 1: Client & Vehicle Information -->
+              <div class="booking-panel-section">
+                <div class="booking-section-label">
+                  <span class="section-number">01</span>
+                  <span class="section-title">Client &amp; Vehicle Profile</span>
+                </div>
+
+                <div class="booking-grid-2">
+                  <!-- Full Name -->
+                  <div class="form-field">
+                    <label for="client-name" class="form-label">
+                      <span>Full Name <span class="required-star">*</span></span>
+                    </label>
+                    <div class="booking-input-wrap">
+                      <span class="input-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                          <circle cx="12" cy="7" r="4" />
+                        </svg>
+                      </span>
+                      <input type="text" id="client-name" name="client_name" class="form-input booking-input"
+                        placeholder="e.g. David Vance" required autocomplete="name">
+                    </div>
+                    <span class="field-error-msg" id="name-error">Please provide client full name</span>
+                  </div>
+
+                  <!-- Phone Number -->
+                  <div class="form-field">
+                    <label for="client-phone" class="form-label">
+                      <span>Phone Number <span class="required-star">*</span></span>
+                    </label>
+                    <div class="booking-input-wrap">
+                      <span class="input-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                        </svg>
+                      </span>
+                      <input type="tel" id="client-phone" name="client_phone" class="form-input booking-input"
+                        placeholder="+1 (555) 019-2834" required autocomplete="tel">
+                    </div>
+                    <span class="field-error-msg" id="phone-error">Please enter a valid phone number</span>
+                  </div>
+                </div>
+
+                <div class="booking-grid-2">
+                  <!-- Email Address -->
+                  <div class="form-field">
+                    <label for="client-email" class="form-label">
+                      <span>Email Address <span class="required-star">*</span></span>
+                    </label>
+                    <div class="booking-input-wrap">
+                      <span class="input-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                          <polyline points="22,6 12,13 2,6" />
+                        </svg>
+                      </span>
+                      <input type="email" id="client-email" name="client_email" class="form-input booking-input"
+                        placeholder="client@luxuryauto.com" required autocomplete="email">
+                    </div>
+                    <span class="field-error-msg" id="email-error">Please provide a valid email</span>
+                  </div>
+
+                  <!-- Vehicle Make & Model -->
+                  <div class="form-field">
+                    <label for="client-vehicle" class="form-label">
+                      <span>Vehicle Make, Model &amp; Year <span class="required-star">*</span></span>
+                    </label>
+                    <div class="booking-input-wrap">
+                      <span class="input-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="1" y="3" width="15" height="13" />
+                          <polygon points="16 8 20 8 23 11 23 16 16 16 8" />
+                          <circle cx="5.5" cy="18.5" r="2.5" />
+                          <circle cx="18.5" cy="18.5" r="2.5" />
+                        </svg>
+                      </span>
+                      <input type="text" id="client-vehicle" name="client_vehicle" class="form-input booking-input"
+                        placeholder="e.g. 2023 Porsche Taycan / BMW M5" required>
+                    </div>
+                    <span class="field-error-msg" id="vehicle-error">Please state your vehicle model</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 2: Electrical Architecture & Powertrain -->
+              <div class="booking-panel-section">
+                <div class="booking-section-label">
+                  <span class="section-number">02</span>
+                  <span class="section-title">Electrical Architecture</span>
+                </div>
+
+                <div class="powertrain-chips" role="radiogroup" aria-label="Electrical System Architecture">
+                  <label class="powertrain-chip">
+                    <input type="radio" name="powertrain_type" value="Standard 12V/24V ICE" checked>
+                    <span class="chip-content">
+                      <span class="chip-icon">🔋</span>
+                      <span class="chip-text-wrap">
+                        <span class="chip-title">12V/24V ICE</span>
+                        <span class="chip-sub">AGM / EFB Batteries</span>
+                      </span>
+                    </span>
+                  </label>
+                  <label class="powertrain-chip">
+                    <input type="radio" name="powertrain_type" value="Hybrid / Full EV High-Voltage">
+                    <span class="chip-content">
+                      <span class="chip-icon">⚡</span>
+                      <span class="chip-text-wrap">
+                        <span class="chip-title">Hybrid &amp; EV (400V-800V)</span>
+                        <span class="chip-sub">High-Voltage Isolation</span>
+                      </span>
+                    </span>
+                  </label>
+                  <label class="powertrain-chip">
+                    <input type="radio" name="powertrain_type" value="European Luxury / High-Performance">
+                    <span class="chip-content">
+                      <span class="chip-icon">🏎️</span>
+                      <span class="chip-text-wrap">
+                        <span class="chip-title">Euro Luxury</span>
+                        <span class="chip-sub">Porsche / BMW / Audi CAN</span>
+                      </span>
+                    </span>
+                  </label>
+                  <label class="powertrain-chip">
+                    <input type="radio" name="powertrain_type" value="Commercial / Fleet Vehicle">
+                    <span class="chip-content">
+                      <span class="chip-icon">🚛</span>
+                      <span class="chip-text-wrap">
+                        <span class="chip-title">Commercial &amp; Fleet</span>
+                        <span class="chip-sub">Dual Alternator / Heavy Duty</span>
+                      </span>
+                    </span>
+                  </label>
+                </div>
+              </div>
+
+              <!-- Section 3: Specialized Battery & Electrical Service -->
+              <div class="booking-panel-section">
+                <div class="booking-section-label">
+                  <span class="section-number">03</span>
+                  <span class="section-title">Service &amp; Bay Schedule</span>
+                </div>
+
+                <div class="form-field full-width">
+                  <label for="client-service-select" class="form-label">
+                    <span>Selected Diagnostic Service <span class="required-star">*</span></span>
+                  </label>
+                  <div class="booking-select-wrap">
+                    <select id="client-service-select" name="client_service" class="custom-select booking-select"
+                      required>
+                      <option value="Battery Replacement ($129)" selected>🔋 High-Performance Battery Replacement &amp;
+                        AGM Coding ($129)</option>
+                      <option value="Computer Diagnostics ($89)">⚡ Master Computer Diagnostics &amp; ECU Fault Scan
+                        ($89)</option>
+                      <option value="Alternator &amp; Starter ($149)">⚙️ Alternator &amp; Starter Motor Testing /
+                        Overhaul ($149)</option>
+                      <option value="Parasitic Drain Repair ($119)">🔌 Parasitic Battery Drain &amp; Complex Wiring Loom
+                        Repair ($119)</option>
+                      <option value="EV High-Voltage Isolation ($199)">⚡ Hybrid / EV High-Voltage Isolation &amp;
+                        Battery Health ($199)</option>
+                      <option value="Climate Control &amp; AC ($109)">❄️ Auto Electrical AC &amp; Sensor Calibration
+                        ($109)</option>
+                      <option value="Rapid Jump Rescue ($79)">🚨 Rapid Mobile Roadside Jump-Start &amp; Battery Dispatch
+                        ($79)</option>
+                    </select>
+                    <span class="select-chevron">
+                      <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor">
+                        <path d="M4 6L8 10L12 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+
+                <!-- Appointment Scheduling Grid -->
+                <div class="booking-grid-2">
+                  <!-- Preferred Date -->
+                  <div class="form-field">
+                    <label for="client-date" class="form-label">
+                      <span>Preferred Date <span class="required-star">*</span></span>
+                    </label>
+                    <div class="booking-input-wrap">
+                      <span class="input-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                          <rect x="3" y="4" width="18" height="18" rx="2" ry="2" />
+                          <line x1="16" y1="2" x2="16" y2="6" />
+                          <line x1="8" y1="2" x2="8" y2="6" />
+                          <line x1="3" y1="10" x2="21" y2="10" />
+                        </svg>
+                      </span>
+                      <input type="date" id="client-date" name="client_date" class="form-input booking-input" required>
+                    </div>
+                    <span class="field-error-msg" id="date-error">Please select a service date</span>
+                  </div>
+
+                  <!-- Preferred Time Window -->
+                  <div class="form-field">
+                    <label for="client-time-slot" class="form-label">
+                      <span>Bay Time Window <span class="required-star">*</span></span>
+                    </label>
+                    <div class="booking-select-wrap">
+                      <select id="client-time-slot" name="client_time_slot" class="custom-select booking-select"
+                        required>
+                        <option value="Morning Slot (08:30 AM – 11:30 AM)" selected>Morning (08:30 AM – 11:30 AM)
+                        </option>
+                        <option value="Midday Slot (11:30 AM – 02:30 PM)">Midday (11:30 AM – 02:30 PM)</option>
+                        <option value="Afternoon Slot (02:30 PM – 05:30 PM)">Afternoon (02:30 PM – 05:30 PM)</option>
+                        <option value="Express Priority Immediate Bay">Express Immediate Bay (Priority)</option>
+                      </select>
+                      <span class="select-chevron">
+                        <svg viewBox="0 0 16 16" width="14" height="14" fill="none" stroke="currentColor">
+                          <path d="M4 6L8 10L12 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Section 4: Symptoms & Client Notes -->
+              <div class="booking-panel-section">
+                <div class="booking-section-label">
+                  <span class="section-number">04</span>
+                  <span class="section-title">Diagnostic Symptoms &amp; Notes</span>
+                </div>
+
+                <div class="form-field full-width">
+                  <label for="client-symptoms" class="form-label">
+                    <span>Describe Any Symptoms or Issues</span>
+                    <span class="label-hint">Optional</span>
+                  </label>
+                  <textarea id="client-symptoms" name="client_symptoms" class="form-textarea booking-textarea" rows="2"
+                    placeholder="e.g. Battery drains overnight, slow crank, dashboard warning lights, alternator whine..."></textarea>
+                </div>
+              </div>
+
+              <!-- Estimation & Guarantee Banner -->
+              <div class="booking-guarantee-banner">
+                <div class="guarantee-icon">🛡️</div>
+                <div class="guarantee-text">
+                  <strong>Workshop Bench Guarantee:</strong> Transparent pricing. Bench scan fee applies 100% directly
+                  toward repair credit if you proceed with our master electrical overhaul.
+                </div>
+              </div>
+
+              <!-- Submit Button Group -->
+              <div class="booking-submit-group">
+                <button type="submit" class="btn btn-primary full-width booking-submit-btn"
+                  id="client-booking-submit-btn">
+                  <span class="btn-spinner" id="booking-btn-spinner"></span>
+                  <span class="btn-text">Confirm Priority Bay Booking</span>
+                  <svg class="btn-arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                    <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round"
+                      stroke-linejoin="round" />
+                  </svg>
+                </button>
+                <p class="booking-privacy-note">🔒 SSL-Encrypted Client Reservation • Instant SMS &amp; Calendar
+                  Confirmation</p>
+              </div>
+            </form>
+          </div>
+        </div>
+
+      </div><!-- /.booking-main-workspace -->
+
+      <!-- Confirmation Card View (Shows upon successful form submission) -->
+      <div id="booking-confirmation-view" class="booking-confirmation-view" style="display: none;">
+        <!-- Top Middle Brand on Confirmation Ticket -->
+        <div class="booking-brand-hero-center confirm-brand-header">
+          <div class="booking-brand-crest">
+            <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical"
+              class="booking-brand-logo-img">
+          </div>
+          <div class="booking-brand-text-center">
+            <div class="booking-brand-title" dir="ltr">
+              <span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span>
+            </div>
+            <div class="booking-brand-tagline">BATTERY &amp; AUTO ELECTRICAL REPAIR SHOP</div>
+          </div>
+        </div>
+
+        <div class="confirmation-icon-wrap">
+          <svg class="confirmation-check-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
+          </svg>
+        </div>
+
+        <span class="confirmation-badge">RESERVATION CONFIRMED</span>
+        <h3 class="confirmation-title">Diagnostic Bay Allocated!</h3>
+        <p class="confirmation-subtitle">Thank you, <strong id="confirm-client-name">Client</strong>. Your appointment
+          has been secured at VOLTERRA Master Auto Electrical.</p>
+
+        <!-- Ticket Card Details -->
+        <div class="booking-ticket-card">
+          <div class="ticket-row ticket-header-row">
+            <span class="ticket-token-label">Booking Reference:</span>
+            <span class="ticket-token-code" id="confirm-ticket-code">#VOLT-8942-BAY</span>
+          </div>
+          <div class="ticket-divider"></div>
+          <div class="ticket-grid">
+            <div class="ticket-item">
+              <span class="item-label">Vehicle:</span>
+              <span class="item-val" id="confirm-vehicle">Audi RS6</span>
+            </div>
+            <div class="ticket-item">
+              <span class="item-label">Assigned Bay:</span>
+              <span class="item-val badge-bay" id="confirm-bay">Bay #2 (Master Electrical Lab)</span>
+            </div>
+            <div class="ticket-item">
+              <span class="item-label">Scheduled Date:</span>
+              <span class="item-val" id="confirm-date">Oct 14, 2026</span>
+            </div>
+            <div class="ticket-item">
+              <span class="item-label">Time Window:</span>
+              <span class="item-val" id="confirm-time">08:30 AM – 11:30 AM</span>
+            </div>
+            <div class="ticket-item ticket-col-span">
+              <span class="item-label">Selected Service:</span>
+              <span class="item-val highlight-gold" id="confirm-service">High-Performance Battery Replacement
+                ($129)</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="confirmation-notes">
+          <p>📲 An instant confirmation SMS and telemetry token have been sent to <span id="confirm-phone-display">+1
+              (555) 000-0000</span> and <span id="confirm-email-display">client@example.com</span>.</p>
+        </div>
+
+        <div class="confirmation-actions">
+          <button type="button" class="btn btn-primary" id="confirm-close-btn">
+            <span>Done / Return to Website</span>
+          </button>
+          <button type="button" class="btn btn-secondary" id="confirm-rebook-btn">
+            <span>Book Another Vehicle</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- NOTIFICATION TOAST -->
+    <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+      <div class="toast-icon">✓</div>
+      <div class="toast-message" id="toast-message">Action successful!</div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="booking-modal.js"></script>
+</body>
+
+</html>

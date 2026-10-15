@@ -1,0 +1,373 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Package Specifications &amp; Pricing Details | VoltEdge Auto Electrical</title>
+  <meta name="description" content="In-depth technical specifications, itemized cost breakdown, lab telemetry, and warranty details for VoltEdge auto electrical service packages.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo_icon.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="Pricing detail.css">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION (Exact Same Design as Home 1) -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <!-- Left: Brand Logo & Name -->
+      <a href="index.html" class="brand-logo" id="brand-logo" aria-label="VOLTERRA Battery & Auto Electrical">
+        <span class="logo-icon-wrap">
+          <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+        </span>
+        <div class="brand-text">
+          <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span></span>
+          <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+        </div>
+      </a>
+
+      <!-- Middle: Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown" id="nav-home-dropdown">
+            <a href="index.html" class="nav-link" id="nav-home">
+              <span>Home</span>
+              <svg class="chevron-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M4 6L8 10L12 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="index.html" class="dropdown-item" id="nav-home1-link">
+                <div class="dropdown-item-title">Home 1 (Classic Specialist)</div>
+                <div class="dropdown-item-desc">Precision Diagnostics &amp; Battery Hub</div>
+              </a>
+              <a href="Home 2.html" class="dropdown-item" id="nav-home2-link">
+                <div class="dropdown-item-title">Home 2 (Fleet &amp; High-Voltage)</div>
+                <div class="dropdown-item-desc">Commercial Fleet &amp; EV Architecture</div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link" id="nav-about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link" id="nav-services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link active" id="nav-pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="technology.html" class="nav-link" id="nav-tech">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" id="nav-contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right: Utility Controls & Primary CTA -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button class="icon-toggle-btn" id="theme-toggle" aria-label="Toggle Dark and Light Mode" title="Toggle Dark/Light Mode">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- RTL Button -->
+        <button class="icon-toggle-btn rtl-toggle-btn" id="rtl-toggle" aria-label="Toggle RTL and LTR" title="Toggle RTL / LTR Direction">
+          <span class="rtl-text-indicator">RTL</span>
+        </button>
+
+        <!-- Primary CTA: Book a Service -->
+        <a href="book a service.html" class="btn btn-primary header-cta-btn" id="header-book-btn">
+          <span>Book a Service</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- QUICK PACKAGE SWITCHER TOOLBAR (Allows instant switching across all 3 pricing packages without page reload) -->
+  <div class="pricing-switcher-bar" id="pricing-switcher-bar">
+    <div class="container switcher-container">
+      <div class="switcher-label">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="switcher-icon">
+          <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+        </svg>
+        <span>All 3 Packages:</span>
+      </div>
+      <div class="switcher-pills" id="switcher-pills" role="tablist">
+        <!-- Rendered dynamically by Pricing detail.js -->
+      </div>
+    </div>
+  </div>
+
+  <main id="pricing-detail-main">
+    <!-- DYNAMIC PRICING DETAIL CONTENT (Populated strictly by Pricing detail.js for the active package ID) -->
+    <div id="pricing-detail-content-wrapper">
+      <div class="pricing-detail-loading text-center" style="padding: 100px 20px;">
+        <div class="loading-spinner"></div>
+        <p style="margin-top: 16px; color: var(--text-muted);">Loading comprehensive package pricing telemetry and engineering specs...</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER (Exact Same Design & Sizing as Home 2) -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-grid-4">
+        <!-- Column 1: Brand Info & Socials -->
+        <div class="footer-column footer-brand-column">
+          <div class="brand-logo footer-logo">
+            <span class="logo-icon-wrap">
+              <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+            </span>
+            <div class="brand-text">
+              <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span></span>
+              <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+            </div>
+          </div>
+          <p class="footer-brand-text">
+            Crafting master-grade automotive electrical diagnostics, precision battery solutions, and heavy-duty charging systems. Certified master workshops.
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="social-link" aria-label="X Twitter" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Services -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="service.html">Heavy Starter &amp; Alternator Rebuild</a></li>
+            <li><a href="service.html">Lithium &amp; AGM Pack Balancing</a></li>
+            <li><a href="service.html">CAN / LIN / FlexRay Diagnostics</a></li>
+            <li><a href="service.html">Parasitic Draw Elimination</a></li>
+            <li><a href="service.html">Electric Steering &amp; Chassis Sensors</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Additional Links -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Additional Links</h4>
+          <ul class="footer-links">
+            <li><a href="technology.html">Enterprise Tech &amp; Partners</a></li>
+            <li><a href="pricing.html">Diagnostic Process Flow</a></li>
+            <li><a href="Pricing detail.html?id=1">Pricing &amp; Warranty Packages</a></li>
+            <li><a href="About.html">About VoltEdge</a></li>
+            <li><a href="contact.html">Contact Workshop</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact & Support (Matching Exact Format) -->
+        <div class="footer-column footer-contact-column">
+          <h4 class="footer-heading">Contact &amp; Support</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Timing:</span>
+                <span class="contact-row-val">Daily: 07:30 AM â€“ 06:30 PM</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Location:</span>
+                <span class="contact-row-val">742 Ampere Blvd, Industrial Park, Suite 104</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Mail:</span>
+                <a href="mailto:support@voltedge-auto.com" class="footer-contact-link">support@voltedge-auto.com</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Support:</span>
+                <a href="tel:+18005558658" class="footer-contact-link">+1 (800) 555-8658</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          &copy; 2026 VoltEdge Auto Electrical Repair Shop. All rights reserved.
+        </div>
+        <div class="legal-links">
+          <a href="#terms">Terms &amp; Conditions</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#privacy">Privacy Policy</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#disclaimer">Safety Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL: BOOK / REQUEST ESTIMATE FOR THIS PACKAGE -->
+  <div class="modal-overlay" id="package-booking-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modal-package-title">
+      <div class="modal-top-bar">
+        <h3 class="modal-card-title" id="modal-package-title">Reserve Package</h3>
+        <button class="modal-close-btn" id="close-package-modal" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div class="modal-content-body">
+        <div class="modal-package-summary-strip" id="modal-package-summary-strip">
+          <span class="summary-package-name" id="summary-package-name">Selected Package</span>
+          <span class="summary-package-rate" id="summary-package-rate">Rate</span>
+        </div>
+
+        <form id="package-booking-form" class="auth-vertical-form">
+          <input type="hidden" id="selected-package-hidden" value="">
+
+          <div class="form-row-grid">
+            <div class="form-field">
+              <label for="book-name" class="form-label">Full Name</label>
+              <input type="text" id="book-name" class="form-input" placeholder="e.g. Marcus Vance" required>
+            </div>
+            <div class="form-field">
+              <label for="book-phone" class="form-label">Phone Number</label>
+              <input type="tel" id="book-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+            </div>
+          </div>
+
+          <div class="form-row-grid">
+            <div class="form-field">
+              <label for="book-vehicle" class="form-label">Vehicle Make, Model &amp; Year</label>
+              <input type="text" id="book-vehicle" class="form-input" placeholder="e.g. 2022 Porsche Macan GTS" required>
+            </div>
+            <div class="form-field">
+              <label for="book-date" class="form-label">Preferred Date</label>
+              <input type="date" id="book-date" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-field">
+            <label for="book-tier-select" class="form-label">Selected Tier</label>
+            <select id="book-tier-select" class="form-input">
+              <option value="Standard Inspection">Standard Package Tier</option>
+              <option value="Performance Master Grade" selected>Master Grade with Telemetry Report</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="book-notes" class="form-label">Vehicle Symptoms or Inquiries</label>
+            <textarea id="book-notes" class="form-input form-textarea" rows="3" placeholder="Explain observed issues: warning lights, slow cold starts, battery drain, etc."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary full-width auth-submit-btn">
+            <span>Confirm &amp; Reserve Appointment</span>
+            <svg class="btn-arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+              <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: LOGIN -->
+  <div class="modal-overlay" id="login-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="login-modal-title">
+      <div class="modal-top-bar">
+        <h3 class="modal-card-title" id="login-modal-title">Customer Diagnostic Portal</h3>
+        <button class="modal-close-btn" id="close-login-modal" aria-label="Close dialog">&times;</button>
+      </div>
+      <div class="modal-content-body">
+        <form id="login-form" class="auth-vertical-form">
+          <div class="form-field">
+            <label for="login-email" class="form-label">Email Address</label>
+            <input type="email" id="login-email" class="form-input" placeholder="driver@domain.com" required>
+          </div>
+          <div class="form-field">
+            <label for="login-password" class="form-label">Password</label>
+            <div class="password-input-wrapper">
+              <input type="password" id="login-password" class="form-input" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" required>
+              <button type="button" class="eye-toggle-btn" id="toggle-password-visibility" aria-label="Toggle password visibility">
+                <svg class="eye-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary full-width auth-submit-btn">
+            <span>Sign In</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION TOAST -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <div class="toast-icon">âœ“</div>
+    <div class="toast-message" id="toast-message">Action successful!</div>
+  </div>
+
+  <script src="Pricing detail.js"></script>
+  <script src="booking-modal.js"></script>
+</body>
+</html>

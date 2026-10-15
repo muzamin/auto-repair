@@ -1,0 +1,997 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Workshop Technology | VoltEdge Master Auto Electrical Diagnostics</title>
+  <meta name="description" content="Discover VoltEdge's advanced automotive technology: digital oscilloscopes, intelligent battery load testing, charging system analyzers, and micro-wiring diagnostics.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo_icon.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="technology.css">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION (Exact Same Design as Home 1) -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <!-- Left: Brand Logo & Name -->
+      <a href="index.html" class="brand-logo" id="brand-logo" aria-label="VOLTERRA Battery & Auto Electrical">
+        <span class="logo-icon-wrap">
+          <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+        </span>
+        <div class="brand-text">
+          <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span></span>
+          <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+        </div>
+      </a>
+
+      <!-- Middle: Nav Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown" id="nav-home-dropdown">
+            <a href="index.html" class="nav-link" id="nav-home">
+              <span>Home</span>
+              <svg class="chevron-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M4 6L8 10L12 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="index.html" class="dropdown-item" id="nav-home1-link">
+                <div class="dropdown-item-title">Home 1 (Classic Specialist)</div>
+                <div class="dropdown-item-desc">Precision Diagnostics &amp; Battery Hub</div>
+              </a>
+              <a href="Home 2.html" class="dropdown-item" id="nav-home2-link">
+                <div class="dropdown-item-title">Home 2 (Fleet &amp; High-Voltage)</div>
+                <div class="dropdown-item-desc">Commercial Fleet &amp; EV Architecture</div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="About.html" class="nav-link" id="nav-about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link" id="nav-services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link" id="nav-pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="technology.html" class="nav-link active" id="nav-tech">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" id="nav-contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right: Utility Controls & Primary CTA -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button class="icon-toggle-btn" id="theme-toggle" aria-label="Toggle Dark and Light Mode" title="Toggle Dark/Light Mode">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- RTL Button -->
+        <button class="icon-toggle-btn rtl-toggle-btn" id="rtl-toggle" aria-label="Toggle RTL and LTR" title="Toggle RTL / LTR Direction">
+          <span class="rtl-text-indicator">RTL</span>
+        </button>
+
+        <!-- Primary CTA: Book a Service -->
+        <a href="book a service.html" class="btn btn-primary header-cta-btn" id="header-book-btn">
+          <span>Book a Service</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 5. REDESIGNED ATELIER TELEMETRY COMMAND STAGE (EXCLUSIVE WOW HERO) -->
+    <section class="tech-hero-section" id="tech-hero">
+      <div class="tech-hero-bg-media">
+        <img 
+          src="assets/images/tech_hero_bg.jpg" 
+          alt="VOLTERRA Quantum Diagnostic Laboratory and High-Voltage Telemetry Stage" 
+          class="tech-hero-bg-img"
+          loading="eager"
+        >
+        <div class="tech-hero-overlay"></div>
+      </div>
+      <div class="tech-hero-ambient-glow"></div>
+
+      <div class="container tech-hero-container">
+        <!-- Top Command Header Deck -->
+        <div class="tech-hero-header-deck">
+          <div class="tech-hero-badge">
+            <span class="pulse-indicator"></span>
+            <span class="badge-text">VOLTERRA QUANTUM DIAGNOSTIC LAB &bull; ISO-17025 ACCREDITED</span>
+          </div>
+
+          <h1 class="tech-hero-headline">
+            Next-Gen Automotive Electrical Architecture.<br>
+            <span class="highlight-gold text-glow">Diagnosed to the Exact Micron.</span>
+          </h1>
+
+          <p class="tech-hero-paratext">
+            Aerospace-grade oscilloscopes, multi-bus CAN/LIN analyzers, and 800V high-voltage battery cell balancers. Where elusive parasitic micro-shorts and microsecond transients meet absolute diagnostic certainty.
+          </p>
+
+          <div class="tech-hero-actions">
+            <a href="#tech-showcase" class="btn btn-primary" id="explore-tech-btn">
+              <span>Explore Diagnostic Technologies</span>
+              <svg class="btn-arrow-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <button class="btn btn-secondary" onclick="openDiagCheckModal()" id="hero-diag-btn">
+              <span>Book a Diagnostic Check</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Central Telemetry Proscenium (4 Flanking HUD Glass Nodes) -->
+        <div class="tech-telemetry-stage">
+          <!-- Left Column HUD Nodes -->
+          <div class="tech-hud-col left-col">
+            <div class="tech-hud-node" data-node="canbus">
+              <div class="hud-node-head">
+                <span class="hud-dot green"></span>
+                <span class="hud-code">CAN-BUS 2.0 / FD</span>
+                <span class="hud-pill pass">ACTIVE</span>
+              </div>
+              <div class="hud-title">Differential Waveform</div>
+              <div class="hud-data highlight-gold">2.5V Bias &bull; 0 Error Frames</div>
+              <div class="hud-sub">Microsecond Transient Protocol</div>
+            </div>
+
+            <div class="tech-hud-node" data-node="isolation">
+              <div class="hud-node-head">
+                <span class="hud-dot gold"></span>
+                <span class="hud-code">800V HV ISOLATION</span>
+                <span class="hud-pill gold">CERTIFIED</span>
+              </div>
+              <div class="hud-title">Inverter Drivetrain Sentry</div>
+              <div class="hud-data highlight-green">&gt;1,200 M&Omega; &bull; 0.001 mA Leak</div>
+              <div class="hud-sub">Continuous Ground Isolation Sentry</div>
+            </div>
+          </div>
+
+          <!-- Center Vehicle Spacer Area (allows 8K hypercar and laser wireframe to breathe) -->
+          <div class="tech-stage-center-space" aria-hidden="true">
+            <div class="stage-reticle-circle">
+              <span class="reticle-core"></span>
+              <span class="reticle-label">HIGH-VOLTAGE EV TEST HARNESS &bull; 800V ACTIVE</span>
+            </div>
+          </div>
+
+          <!-- Right Column HUD Nodes -->
+          <div class="tech-hud-col right-col">
+            <div class="tech-hud-node" data-node="picoscope">
+              <div class="hud-node-head">
+                <span class="hud-dot green"></span>
+                <span class="hud-code">4-CHANNEL LAB SCOPE</span>
+                <span class="hud-pill pass">400 MS/s</span>
+              </div>
+              <div class="hud-title">PicoScope Deep Memory</div>
+              <div class="hud-data highlight-gold">Live PWM Duty-Cycle Decoding</div>
+              <div class="hud-sub">Direct Actuator Transient Analysis</div>
+            </div>
+
+            <div class="tech-hud-node" data-node="battery">
+              <div class="hud-node-head">
+                <span class="hud-dot gold"></span>
+                <span class="hud-code">LITHIUM &amp; AGM LAB</span>
+                <span class="hud-pill pass">99.8% SOH</span>
+              </div>
+              <div class="hud-title">Midtronics Dynamic Profiler</div>
+              <div class="hud-data highlight-green">1,150 CCA &bull; 2.1 m&Omega; Impedance</div>
+              <div class="hud-sub">Conductance Cell Balancing Matrix</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom Integrated Hardware Dock -->
+        <div class="tech-hardware-dock">
+          <div class="dock-header-label">
+            <span class="dock-pulse"></span>
+            <span>ATELIER HARDWARE:</span>
+          </div>
+
+          <div class="dock-items-wrap">
+            <div class="dock-item">
+              <span class="dock-num">01</span>
+              <div class="dock-details">
+                <div class="dock-model">PicoScope 4425A</div>
+                <div class="dock-desc">Automotive Lab Scope</div>
+              </div>
+            </div>
+
+            <div class="dock-sep"></div>
+
+            <div class="dock-item">
+              <span class="dock-num">02</span>
+              <div class="dock-details">
+                <div class="dock-model">Midtronics MDX-700</div>
+                <div class="dock-desc">Conductance Analyzer</div>
+              </div>
+            </div>
+
+            <div class="dock-sep"></div>
+
+            <div class="dock-item">
+              <span class="dock-num">03</span>
+              <div class="dock-details">
+                <div class="dock-model">Autel MaxiSys Ultra</div>
+                <div class="dock-desc">5-in-1 Intelligent VCMI</div>
+              </div>
+            </div>
+
+            <div class="dock-sep"></div>
+
+            <div class="dock-item">
+              <span class="dock-num">04</span>
+              <div class="dock-details">
+                <div class="dock-model">Fluke 289 True-RMS</div>
+                <div class="dock-desc">&mu;V Signal Capture</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 10. PERFORMANCE & TRUST HIGHLIGHTS (SLIM STRIP) -->
+    <section class="tech-strip-section" id="tech-highlights">
+      <div class="container">
+        <div class="tech-highlights-strip">
+          
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <div class="strip-info">
+              <span class="strip-title">Professional Diagnostic Equipment</span>
+              <span class="strip-meta">Digital Oscilloscopes &amp; OEM Scanners</span>
+            </div>
+          </div>
+
+          <div class="strip-divider"></div>
+
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="1" y="6" width="22" height="15" rx="2"/>
+                <line x1="6" y1="6" x2="6" y2="3"/>
+                <line x1="18" y1="6" x2="18" y2="3"/>
+                <line x1="7" y1="12" x2="11" y2="12"/>
+                <line x1="13" y1="12" x2="17" y2="12"/>
+              </svg>
+            </div>
+            <div class="strip-info">
+              <span class="strip-title">Battery &amp; Charging System Testing</span>
+              <span class="strip-meta">Conductance Profiling &amp; Ripple Sweeps</span>
+            </div>
+          </div>
+
+          <div class="strip-divider"></div>
+
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+              </svg>
+            </div>
+            <div class="strip-info">
+              <span class="strip-title">Systematic Electrical Troubleshooting</span>
+              <span class="strip-meta">Zero-Guesswork Ground &amp; Wire Tracing</span>
+            </div>
+          </div>
+
+          <div class="strip-divider"></div>
+
+          <div class="strip-item">
+            <div class="strip-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
+            <div class="strip-info">
+              <span class="strip-title">Transparent Repair Estimates</span>
+              <span class="strip-meta">Written Authorization Before Work</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. ADVANCED TECHNOLOGY SHOWCASE (4 CARDS GRID) -->
+    <section class="tech-showcase-section" id="tech-showcase">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Core Capabilities</span>
+          <h2 class="section-title">Advanced Technology Showcase</h2>
+          <p class="section-subtitle">
+            Explore the four specialized testing pillars engineered to protect your vehicle's sensitive computers, optimize power delivery, and isolate elusive faults.
+          </p>
+        </div>
+
+        <div class="tech-cards-grid">
+          
+          <!-- Card 1 â€” Intelligent Battery Testing -->
+          <article class="tech-card">
+            <div class="tech-card-media">
+              <img 
+                src="assets/images/tech_card_midtronics.jpg" 
+                alt="Intelligent battery testing with professional diagnostic conductance tester" 
+                class="tech-card-img"
+                loading="lazy"
+              >
+              <div class="tech-card-overlay"></div>
+              <span class="tech-card-num">01</span>
+              <div class="tech-card-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                  <line x1="6" y1="12" x2="10" y2="12"/>
+                  <line x1="14" y1="12" x2="18" y2="12"/>
+                </svg>
+              </div>
+            </div>
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Intelligent Battery Testing</h3>
+              <p class="tech-card-desc">
+                Professional battery analyzers assess internal plate conductance, remaining Cold Cranking Amperage (CCA), and reserve capacity without placing destructive thermal strain on the cells.
+              </p>
+              <div class="tech-card-footer">
+                <a href="service detail.html?id=2" class="tech-card-link">
+                  <span>Learn More</span>
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 2 â€” Advanced Electrical Diagnostics -->
+          <article class="tech-card">
+            <div class="tech-card-media">
+              <img 
+                src="assets/images/tech_card_picoscope.jpg" 
+                alt="Advanced electrical diagnostics using multi-channel oscilloscope" 
+                class="tech-card-img"
+                loading="lazy"
+              >
+              <div class="tech-card-overlay"></div>
+              <span class="tech-card-num">02</span>
+              <div class="tech-card-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
+                </svg>
+              </div>
+            </div>
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Advanced Electrical Diagnostics</h3>
+              <p class="tech-card-desc">
+                High-frequency digital oscilloscopes and OEM communication scanners capture microsecond CAN-bus waveform glitches, eliminating the guesswork of generic handheld code readers.
+              </p>
+              <div class="tech-card-footer">
+                <a href="service detail.html?id=1" class="tech-card-link">
+                  <span>Learn More</span>
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 3 â€” Charging System Analysis -->
+          <article class="tech-card">
+            <div class="tech-card-media">
+              <img 
+                src="assets/images/tech_card_dyno.jpg" 
+                alt="Alternator charging system analysis on bench dynamometer" 
+                class="tech-card-img"
+                loading="lazy"
+              >
+              <div class="tech-card-overlay"></div>
+              <span class="tech-card-num">03</span>
+              <div class="tech-card-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="8"/>
+                  <line x1="12" y1="2" x2="12" y2="4"/>
+                  <line x1="12" y1="20" x2="12" y2="22"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </div>
+            </div>
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Charging System Analysis</h3>
+              <p class="tech-card-desc">
+                Bench dynamometers verify full-amperage alternator output across the RPM band, inspecting internal rectifier diode bridges to prevent harmful AC voltage ripple from damaging vehicle ECUs.
+              </p>
+              <div class="tech-card-footer">
+                <a href="service detail.html?id=3" class="tech-card-link">
+                  <span>Learn More</span>
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 4 â€” Starter & Wiring Inspection -->
+          <article class="tech-card">
+            <div class="tech-card-media">
+              <img 
+                src="assets/images/tech_card_thermal.jpg" 
+                alt="Starter motor and automotive wire harness inspection" 
+                class="tech-card-img"
+                loading="lazy"
+              >
+              <div class="tech-card-overlay"></div>
+              <span class="tech-card-num">04</span>
+              <div class="tech-card-icon-bubble">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+                </svg>
+              </div>
+            </div>
+            <div class="tech-card-body">
+              <h3 class="tech-card-title">Starter &amp; Wiring Inspection</h3>
+              <p class="tech-card-desc">
+                High-torque starter solenoid current drop testing, four-point ground resistance sweeps, and mil-spec harness repairs restore corrupted electrical paths back to factory tolerances.
+              </p>
+              <div class="tech-card-footer">
+                <a href="service detail.html?id=4" class="tech-card-link">
+                  <span>Learn More</span>
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. CINEMATIC FEATURED TECHNOLOGY SECTION -->
+    <section class="tech-cinematic-section" id="cinematic-feature">
+      <div class="cinematic-bg-media">
+        <img 
+          src="assets/images/tech_cinematic_lab.jpg" 
+          alt="Master automotive electrical workshop chamber" 
+          class="cinematic-bg-img"
+          loading="lazy"
+        >
+        <div class="cinematic-overlay"></div>
+      </div>
+      <div class="cinematic-ambient-glow"></div>
+
+      <div class="container cinematic-container">
+        <div class="cinematic-card">
+          <div class="cinematic-header">
+            <span class="section-tag">Systematic Diagnostic Standard</span>
+            <h2 class="cinematic-title">Every Diagnosis Begins With Precision.</h2>
+            <p class="cinematic-desc">
+              Electrical problems are not always visible. Our technicians combine professional testing equipment with practical automotive expertise to investigate the cause, verify findings, and recommend appropriate repairs.
+            </p>
+          </div>
+
+          <div class="cinematic-features-grid">
+            <div class="cinematic-feature-item">
+              <div class="feature-icon-bullet">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+                  <polyline points="22 4 12 14.01 9 11.01"/>
+                </svg>
+              </div>
+              <div class="feature-text-wrap">
+                <h4 class="feature-heading">Accurate System Testing</h4>
+                <p class="feature-sub">Multi-channel voltage capture prevents premature component replacements.</p>
+              </div>
+            </div>
+
+            <div class="cinematic-feature-item">
+              <div class="feature-icon-bullet">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"/>
+                  <line x1="12" y1="8" x2="12" y2="12"/>
+                  <line x1="12" y1="16" x2="12.01" y2="16"/>
+                </svg>
+              </div>
+              <div class="feature-text-wrap">
+                <h4 class="feature-heading">Systematic Fault Identification</h4>
+                <p class="feature-sub">Traced directly to the root source, including subtle ground drops and frayed pins.</p>
+              </div>
+            </div>
+
+            <div class="cinematic-feature-item">
+              <div class="feature-icon-bullet">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                  <polyline points="14 2 14 8 20 8"/>
+                </svg>
+              </div>
+              <div class="feature-text-wrap">
+                <h4 class="feature-heading">Clear Repair Recommendations</h4>
+                <p class="feature-sub">Written estimates detailing parts, labor, and expected completion times.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. HOW OUR DIAGNOSTIC TECHNOLOGY WORKS (4-STEP PROCESS) -->
+    <section class="tech-workflow-section" id="how-tech-works">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Methodology</span>
+          <h2 class="section-title">How Our Diagnostic Technology Works</h2>
+          <p class="section-subtitle">
+            A methodical four-step engineering sequence designed to pinpoint automotive electrical root causes accurately without unnecessary guesswork.
+          </p>
+        </div>
+
+        <div class="tech-steps-row">
+          
+          <div class="tech-step-item">
+            <div class="tech-step-badge">01</div>
+            <div class="tech-step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+              </svg>
+            </div>
+            <h4 class="tech-step-title">Connect</h4>
+            <p class="tech-step-desc">
+              Connect suitable diagnostic or testing equipment to the relevant vehicle system or communication gateway.
+            </p>
+          </div>
+
+          <div class="tech-step-item">
+            <div class="tech-step-badge">02</div>
+            <div class="tech-step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+              </svg>
+            </div>
+            <h4 class="tech-step-title">Test</h4>
+            <p class="tech-step-desc">
+              Evaluate battery condition, charging performance, starting operation, or electrical connections as appropriate.
+            </p>
+          </div>
+
+          <div class="tech-step-item">
+            <div class="tech-step-badge">03</div>
+            <div class="tech-step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="11" cy="11" r="8"/>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"/>
+              </svg>
+            </div>
+            <h4 class="tech-step-title">Identify</h4>
+            <p class="tech-step-desc">
+              Interpret test results alongside physical inspections and the symptoms reported by the customer.
+            </p>
+          </div>
+
+          <div class="tech-step-item">
+            <div class="tech-step-badge">04</div>
+            <div class="tech-step-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
+            <h4 class="tech-step-title">Recommend</h4>
+            <p class="tech-step-desc">
+              Explain the findings and provide a repair estimate for customer approval before proceeding with additional work.
+            </p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- 9. TECHNOLOGY MEETS EXPERTISE (TWO-COLUMN EDITORIAL) -->
+    <section class="tech-expertise-section" id="tech-expertise">
+      <div class="container">
+        <div class="expertise-grid">
+          <!-- Left: Realistic Workshop Photograph -->
+          <div class="expertise-visual-wrap">
+            <div class="expertise-image-card">
+              <img 
+                src="assets/images/tech_expertise_bay.jpg" 
+                alt="VOLTERRA master auto electrical workshop bay" 
+                class="expertise-img"
+                loading="lazy"
+              >
+              <div class="image-gradient-overlay"></div>
+              <div class="expertise-floating-pill">
+                <span class="pulse-indicator"></span>
+                <span>Certified Master Diagnostic Bay</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right: Editorial Content -->
+          <div class="expertise-content">
+            <span class="section-tag">
+              <span class="badge-dot"></span>
+              <span>Human Mastery &amp; Digital Precision</span>
+            </span>
+            <h2 class="section-title">Advanced Tools. Experienced Hands.</h2>
+            <p class="expertise-description">
+              Technology supports great automotive service, but expertise makes the difference. Our diagnostic process combines suitable testing equipment, careful inspection, and professional judgment to help identify the source of battery and electrical problems.
+            </p>
+
+            <div class="expertise-checklist">
+              <div class="check-item">
+                <div class="check-icon-circle">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" class="check-svg">
+                    <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="check-text">
+                  <h5>Equipment Selected for the Task</h5>
+                  <p>Matching the specific vehicle architecture with dedicated manufacturer-grade scan interfaces.</p>
+                </div>
+              </div>
+
+              <div class="check-item">
+                <div class="check-icon-circle">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" class="check-svg">
+                    <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="check-text">
+                  <h5>Careful Interpretation of Test Results</h5>
+                  <p>Analyzing oscilloscope waveforms and thermal maps to eliminate false code interpretations.</p>
+                </div>
+              </div>
+
+              <div class="check-item">
+                <div class="check-icon-circle">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" class="check-svg">
+                    <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="check-text">
+                  <h5>Repair Recommendations Based on Findings</h5>
+                  <p>Prescribing surgical micro-component fixes rather than unneeded whole-module swaps.</p>
+                </div>
+              </div>
+
+              <div class="check-item">
+                <div class="check-icon-circle">
+                  <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" class="check-svg">
+                    <path d="M3.5 8.5L6.5 11.5L12.5 4.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div class="check-text">
+                  <h5>Clear Communication Before Additional Repairs</h5>
+                  <p>Written authorization and transparent explanations every step of the way.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PREMIUM MASTER CALL-TO-ACTION (CTA) CARDS SECTION
+         Architected for Ultra-Luxury Automotive Engineering Aesthetics
+         ========================================================================== -->
+    <!-- ==========================================================================
+         PREMIUM CTA CARD - IMAGE 2 REFERENCE (DARK CENTERED LUXURY CARD)
+         ========================================================================== -->
+    <section class="premium-cta-section" id="premium-cta-section">
+      <div class="container">
+        <div class="cta-card-dark-centered">
+          <h2 class="cta-dark-title">Ready to Put Laboratory Telemetry to Work?</h2>
+          <p class="cta-dark-subtitle">Experience hospital-grade oscilloscopic diagnostics and dealer-level programming calibrated specifically for your vehicle.</p>
+          <div class="cta-dark-actions">
+            <a href="book a service.html" class="cta-btn-gold" id="tech-cta-book-btn">
+              <span>Book Diagnostic Lab</span>
+              <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="service.html" class="cta-btn-outline-pill" id="tech-cta-services-btn">
+              <span>Explore Our Bay</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER (Exact Same Design & Sizing as Home 2) -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-grid-4">
+        <!-- Column 1: Brand Info & Socials -->
+        <div class="footer-column footer-brand-column">
+          <div class="brand-logo footer-logo">
+            <span class="logo-icon-wrap">
+              <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+            </span>
+            <div class="brand-text">
+              <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span></span>
+              <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+            </div>
+          </div>
+          <p class="footer-brand-text">
+            Crafting master-grade automotive electrical diagnostics, precision battery solutions, and heavy-duty charging systems. Certified master workshops.
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="social-link" aria-label="X Twitter" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Services -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="service.html">Heavy Starter &amp; Alternator Rebuild</a></li>
+            <li><a href="service.html">Lithium &amp; AGM Pack Balancing</a></li>
+            <li><a href="service.html">CAN / LIN / FlexRay Diagnostics</a></li>
+            <li><a href="service.html">Parasitic Draw Elimination</a></li>
+            <li><a href="service.html">Electric Steering &amp; Chassis Sensors</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Additional Links -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Additional Links</h4>
+          <ul class="footer-links">
+            <li><a href="technology.html">Enterprise Tech &amp; Partners</a></li>
+            <li><a href="pricing.html">Diagnostic Process Flow</a></li>
+            <li><a href="Pricing detail.html?id=1">Pricing &amp; Warranty Packages</a></li>
+            <li><a href="About.html">About VoltEdge</a></li>
+            <li><a href="contact.html">Contact Workshop</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact & Support (Matching Exact Format) -->
+        <div class="footer-column footer-contact-column">
+          <h4 class="footer-heading">Contact &amp; Support</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Timing:</span>
+                <span class="contact-row-val">Daily: 07:30 AM â€“ 06:30 PM</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Location:</span>
+                <span class="contact-row-val">742 Ampere Blvd, Industrial Park, Suite 104</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Mail:</span>
+                <a href="mailto:support@voltedge-auto.com" class="footer-contact-link">support@voltedge-auto.com</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Support:</span>
+                <a href="tel:+18005558658" class="footer-contact-link">+1 (800) 555-8658</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          &copy; 2026 VoltEdge Auto Electrical Repair Shop. All rights reserved.
+        </div>
+        <div class="legal-links">
+          <a href="#terms">Terms &amp; Conditions</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#privacy">Privacy Policy</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#disclaimer">Safety Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL: BOOK DIAGNOSTIC CHECK DIALOG -->
+  <div class="modal-overlay" id="diag-check-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-labelledby="diag-modal-title">
+      <div class="modal-top-bar">
+        <div class="modal-card-logo">
+          <span class="logo-icon-wrap mini">
+            <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+          </span>
+          <span class="modal-logo-text">VOLTERRA Diagnostic Lab</span>
+        </div>
+        <button class="modal-close-btn" id="close-diag-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-content-body">
+        <h3 class="auth-modal-title" id="diag-modal-title">Schedule Diagnostic Inspection</h3>
+        <p class="auth-modal-subtitle">Reserve dedicated oscilloscope bench time with our certified master auto electrical technicians.</p>
+
+        <form id="diag-check-form" class="auth-vertical-form">
+          <div class="form-field">
+            <label for="diag-name" class="form-label">Full Name *</label>
+            <input type="text" id="diag-name" class="form-input" placeholder="e.g. David Vance" required>
+          </div>
+
+          <div class="form-field">
+            <label for="diag-phone" class="form-label">Phone Number *</label>
+            <input type="tel" id="diag-phone" class="form-input" placeholder="+1 (555) 000-0000" required>
+          </div>
+
+          <div class="form-field">
+            <label for="diag-system" class="form-label">Diagnostic System Area</label>
+            <select id="diag-system" class="form-input">
+              <option value="battery">Intelligent Battery &amp; BMS Load Testing</option>
+              <option value="ecu" selected>Advanced Computerized ECU &amp; CAN-Bus Diagnostics</option>
+              <option value="charging">Alternator Output &amp; AC Ripple Analysis</option>
+              <option value="starting">Starter Motor &amp; Solenoid Cranking Analysis</option>
+              <option value="wiring">Wire Harness &amp; Parasitic Drain Tracing</option>
+            </select>
+          </div>
+
+          <div class="form-field">
+            <label for="diag-vehicle" class="form-label">Vehicle Make, Model &amp; Year *</label>
+            <input type="text" id="diag-vehicle" class="form-input" placeholder="e.g. 2022 BMW M3 / Audi RS6" required>
+          </div>
+
+          <div class="form-field">
+            <label for="diag-notes" class="form-label">Observed Symptoms (Optional)</label>
+            <textarea id="diag-notes" class="form-textarea" rows="3" placeholder="Intermittent warning lights, battery dying overnight, dimming headlights..."></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary full-width auth-submit-btn">
+            <span>Confirm Diagnostic Appointment</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: LOGIN DIALOG -->
+  <div class="modal-overlay" id="login-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-labelledby="login-modal-title">
+      <div class="modal-top-bar">
+        <div class="modal-card-logo">
+          <span class="logo-icon-wrap mini">
+            <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+          </span>
+          <span class="modal-logo-text">VOLTERRA Customer Portal</span>
+        </div>
+        <button class="modal-close-btn" id="close-login-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-content-body">
+        <h3 class="auth-modal-title" id="login-modal-title">Sign In to Your Account</h3>
+        <p class="auth-modal-subtitle">Access your diagnostic telemetry records, warranty status, and bay bookings.</p>
+
+        <form id="login-form" class="auth-vertical-form">
+          <div class="form-field">
+            <label for="login-email" class="form-label">Email Address</label>
+            <input type="email" id="login-email" class="form-input" placeholder="client@domain.com" required>
+          </div>
+
+          <div class="form-field">
+            <label for="login-password" class="form-label">Password</label>
+            <div class="password-input-wrapper">
+              <input type="password" id="login-password" class="form-input" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" required>
+              <button type="button" class="eye-toggle-btn" id="toggle-password-visibility" aria-label="Toggle password visibility">
+                <svg class="eye-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <button type="submit" class="btn btn-primary full-width auth-submit-btn">
+            <span>Sign In to Dashboard</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION TOAST -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <div class="toast-icon">âœ“</div>
+    <div class="toast-message" id="toast-message">Action successful!</div>
+  </div>
+
+  <script src="technology.js"></script>
+  <script src="booking-modal.js"></script>
+</body>
+</html>

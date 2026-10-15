@@ -1,0 +1,772 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | VoltEdge Master Auto Electrical &amp; Battery Engineering</title>
+  <meta name="description" content="Discover VoltEdge's 25-year legacy of master auto electrical diagnostics, high-voltage battery lab engineering, component-level micro-repairs, and our certified team.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" href="assets/images/logo_icon.png">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="About.css">
+</head>
+<body>
+  <!-- HEADER & NAVIGATION (Exact Same Design as Home 1) -->
+  <header class="site-header" id="site-header">
+    <div class="header-container">
+      <!-- Left: Brand Logo & Name -->
+      <a href="index.html" class="brand-logo" id="brand-logo" aria-label="VOLTERRA Battery & Auto Electrical">
+        <span class="logo-icon-wrap">
+          <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+        </span>
+        <div class="brand-text">
+          <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span></span>
+          <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+        </div>
+      </a>
+
+      <!-- Middle: 6 Nav Links (Dashboard MUST be the last link) -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item has-dropdown" id="nav-home-dropdown">
+            <a href="index.html" class="nav-link" id="nav-home">
+              <span>Home</span>
+              <svg class="chevron-icon" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M4 6L8 10L12 6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <div class="nav-dropdown-menu">
+              <a href="index.html" class="dropdown-item" id="nav-home1-link">
+                <div class="dropdown-item-title">Home 1 (Classic Specialist)</div>
+                <div class="dropdown-item-desc">Precision Diagnostics &amp; Battery Hub</div>
+              </a>
+              <a href="Home 2.html" class="dropdown-item" id="nav-home2-link">
+                <div class="dropdown-item-title">Home 2 (Fleet &amp; High-Voltage)</div>
+                <div class="dropdown-item-desc">Commercial Fleet &amp; EV Architecture</div>
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="#about-hero" class="nav-link active" id="nav-about">About us</a>
+          </li>
+          <li class="nav-item">
+            <a href="service.html" class="nav-link" id="nav-services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="pricing.html" class="nav-link" id="nav-pricing">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a href="technology.html" class="nav-link" id="nav-tech">Technology</a>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link" id="nav-contact">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Right: Utility Controls & Primary CTA -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button class="icon-toggle-btn" id="theme-toggle" aria-label="Toggle Dark and Light Mode" title="Toggle Dark/Light Mode">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- RTL Button -->
+        <button class="icon-toggle-btn rtl-toggle-btn" id="rtl-toggle" aria-label="Toggle RTL and LTR" title="Toggle RTL / LTR Direction">
+          <span class="rtl-text-indicator">RTL</span>
+        </button>
+
+        <!-- Primary CTA: Book a Service -->
+        <a href="book a service.html" class="btn btn-primary header-cta-btn" id="header-book-btn">
+          <span>Book a Service</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+          <span class="menu-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- 1. ABOUT US PREMIUM HERO BANNER (Fit in Screen) -->
+    <section class="about-hero-section" id="about-hero">
+      <div class="about-hero-bg-media">
+        <img 
+          src="assets/images/about_hero_bg.jpg" 
+          alt="VoltEdge Auto Electrical Workshop and Diagnostic Chamber" 
+          class="about-hero-bg-img"
+          loading="eager"
+        >
+        <div class="about-hero-overlay"></div>
+      </div>
+      <div class="about-hero-ambient-glow"></div>
+      <div class="container about-hero-container">
+        <!-- Left: Paratext Content -->
+        <div class="about-hero-content">
+          <div class="about-hero-badge">
+            <span class="pulse-indicator"></span>
+            <span class="badge-text">25+ Years of Engineering Mastery</span>
+          </div>
+
+          <h1 class="about-hero-headline">
+            Pioneering Precision Auto Electrical &amp; <span class="hero-headline-highlight">Battery Engineering</span>
+          </h1>
+
+          <p class="about-hero-paratext">
+            Founded on the principle that automotive electronics require scientific telemetry rather than trial-and-error replacements. We combine high-frequency oscilloscopes, micro-soldering labs, and certified master auto electricians to resolve the automotive industry's most complex electrical challenges.
+          </p>
+
+          <!-- Legacy Metrics -->
+          <div class="about-hero-metrics">
+            <div class="metric-card">
+              <div class="metric-number">2001</div>
+              <div class="metric-label">Year Established</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">50,000+</div>
+              <div class="metric-label">Vehicles Certified</div>
+            </div>
+            <div class="metric-divider"></div>
+            <div class="metric-card">
+              <div class="metric-number">100%</div>
+              <div class="metric-label">Component Precision</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Legacy Showcase Frame -->
+        <div class="about-hero-visual">
+          <div class="about-hero-main-card">
+            <img 
+              src="assets/images/about_hero_master.jpg" 
+              alt="Master technician running serial bus diagnostics" 
+              class="hero-img"
+              loading="eager"
+            >
+            <div class="image-gradient-overlay"></div>
+            <div class="card-status-pill">
+              <span class="status-pulse-dot"></span>
+              <span>Master Technician Lab</span>
+            </div>
+          </div>
+
+          <div class="about-hero-sub-card">
+            <img 
+              src="assets/images/about_hero_conductance.jpg" 
+              alt="Automotive battery conductance analysis" 
+              class="hero-img"
+              loading="eager"
+            >
+            <div class="image-gradient-overlay"></div>
+            <div class="card-status-pill bottom-pill">
+              <span class="status-pulse-dot gold"></span>
+              <span>Conductance Testing</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. OUR MISSION: Left Image, Right Paratext Content -->
+    <section class="mission-section" id="mission">
+      <div class="container mission-grid">
+        <!-- Left Image -->
+        <div class="mission-image-wrap">
+          <img 
+            src="assets/images/about_mission_lab.jpg" 
+            alt="Master auto electrician troubleshooting wire harness" 
+            loading="lazy"
+          >
+          <div class="image-gradient-overlay"></div>
+          <div class="mission-top-chip">ðŸ”¬ Certified ESD Clean-Lab</div>
+          <div class="mission-badge-pill">
+            <span class="status-pulse-dot"></span>
+            <span>Zero-Guesswork Diagnostic Standard</span>
+          </div>
+        </div>
+
+        <!-- Right Paratext Content -->
+        <div class="mission-content">
+          <span class="section-tag">
+            <span class="tag-status-dot"></span>
+            Core Driving Purpose
+          </span>
+          <h2 class="section-title mission-title">Our Mission: Eradicate Trial-and-Error With <span class="text-gold-accent">Scientific Telemetry</span></h2>
+          <p class="section-subtitle mission-subtitle">
+            Every day, vehicle owners and commercial operators are told to replace multi-thousand-dollar modules because general mechanics cannot pinpoint intermittent electrical faults. Our mission is to restore integrity to automotive repair through component-level diagnostics, repairing the exact micro-defect while saving clients time and money.
+          </p>
+
+          <div class="mission-pillars">
+            <div class="mission-pillar-card">
+              <div class="pillar-title">
+                <span class="status-pulse-dot"></span>
+                <span>Component-Level Repair</span>
+              </div>
+              <p class="pillar-desc">Replacing individual failed MOSFETs and diodes rather than discarding entire functional ECU units.</p>
+            </div>
+
+            <div class="mission-pillar-card">
+              <div class="pillar-title">
+                <span class="status-pulse-dot gold"></span>
+                <span>Scientific Datalogging</span>
+              </div>
+              <p class="pillar-desc">Clients receive before-and-after oscilloscope graphs proving the exact electrical root cause.</p>
+            </div>
+
+            <div class="mission-pillar-card">
+              <div class="pillar-title">
+                <span class="status-pulse-dot"></span>
+                <span>36-Month Warranty</span>
+              </div>
+              <p class="pillar-desc">Every stator rewind, solder joint, and battery installation is backed by our master warranty.</p>
+            </div>
+
+            <div class="mission-pillar-card">
+              <div class="pillar-title">
+                <span class="status-pulse-dot gold"></span>
+                <span>Sustainable Remanufacturing</span>
+              </div>
+              <p class="pillar-desc">Diverting heavy alternator and starter cores from scrap metal via aerospace-grade restoration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. OUR VISION: Right Image, Left Paratext Content -->
+    <section class="vision-section" id="vision">
+      <div class="container vision-grid">
+        <!-- Left Paratext Content -->
+        <div class="vision-content">
+          <span class="section-tag">
+            <span class="tag-status-dot"></span>
+            Engineering Horizon
+          </span>
+          <h2 class="section-title vision-title">Our Vision: The Benchmark in <span class="text-gold-accent">High-Voltage EV</span> &amp; Fleet Reliability</h2>
+          <p class="section-subtitle vision-subtitle">
+            As automotive powertrains transition into sophisticated high-voltage architectures, VoltEdge is actively setting the national benchmark. We envision an automotive service landscape where complex 48Vâ€“800V EV architectures, smart alternator networks, and multiplexed communications are handled with absolute safety, diagnostic rigor, and zero environmental waste.
+          </p>
+
+          <div class="vision-stats-row">
+            <div class="vision-stat-box">
+              <span class="vision-stat-val">800V</span>
+              <span class="vision-stat-lbl">High-Voltage EV Certified</span>
+            </div>
+            <div class="vision-stat-box">
+              <span class="vision-stat-val">&lt;0.01%</span>
+              <span class="vision-stat-lbl">Repeat Warranty Comeback</span>
+            </div>
+            <div class="vision-stat-box">
+              <span class="vision-stat-val">24/7</span>
+              <span class="vision-stat-lbl">Mission-Critical Fleet Readiness</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Image -->
+        <div class="vision-image-wrap">
+          <img 
+            src="assets/images/about_vision_ev.jpg" 
+            alt="High-voltage 800V EV battery architecture and powertrain calibration" 
+            loading="lazy"
+          >
+          <div class="image-gradient-overlay"></div>
+          <div class="mission-top-chip" style="left: auto; right: 14px;">âš¡ 800V Architecture</div>
+          <div class="mission-badge-pill" style="left: 14px; right: 14px;">
+            <span class="status-pulse-dot gold"></span>
+            <span>Next-Gen EV &amp; Hybrid Architecture</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. SUCCESS TIMELINE OF BATTERY & AUTO ELECTRICAL REPAIR SHOP -->
+    <section class="success-timeline-section" id="timeline">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">25-Year Chronological Journey</span>
+          <h2 class="section-title">Milestones in Auto Electrical Engineering</h2>
+          <p class="section-subtitle">
+            From a single-bench oscilloscope repair shop to a nationally certified high-voltage automotive laboratory.
+          </p>
+        </div>
+
+        <div class="success-timeline-wrap">
+          <!-- Milestone 1 -->
+          <div class="timeline-milestone-item left">
+            <div class="milestone-marker">01</div>
+            <div class="milestone-content-card">
+              <div class="milestone-year-tag">2001 &bull; Genesis</div>
+              <h3 class="milestone-card-title">The Dedicated Oscilloscope Lab</h3>
+              <p class="milestone-card-desc">
+                Founded with dual analog cathode-ray oscilloscopes, specialized in carbureted ignition timing, diode pack replacements, and heavy starter motor rebuilding.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 2 -->
+          <div class="timeline-milestone-item right">
+            <div class="milestone-marker">02</div>
+            <div class="milestone-content-card">
+              <div class="milestone-year-tag">2008 &bull; Multiplex Era</div>
+              <h3 class="milestone-card-title">CAN-Bus Protocol Integration</h3>
+              <p class="milestone-card-desc">
+                Introduced high-speed serial bus data loggers, decoding the very first generation of CAN and LIN networks on luxury European and Japanese automobiles.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 3 -->
+          <div class="timeline-milestone-item left">
+            <div class="milestone-marker">03</div>
+            <div class="milestone-content-card">
+              <div class="milestone-year-tag">2015 &bull; Heavy-Duty Expansion</div>
+              <h3 class="milestone-card-title">High-Output Alternator Facility</h3>
+              <p class="milestone-card-desc">
+                Commissioned our dedicated 250A stator winding bench and variable-speed dyno load tester to serve emergency response ambulances and refrigerated haulers.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 4 -->
+          <div class="timeline-milestone-item right">
+            <div class="milestone-marker">04</div>
+            <div class="milestone-content-card">
+              <div class="milestone-year-tag">2020 &bull; Clean-Room Launch</div>
+              <h3 class="milestone-card-title">800V EV Battery Isolation Chamber</h3>
+              <p class="milestone-card-desc">
+                Built an ESD-safe clean chamber for hybrid and EV battery module conductance balancing, internal resistance tracing, and ground fault localization.
+              </p>
+            </div>
+          </div>
+
+          <!-- Milestone 5 -->
+          <div class="timeline-milestone-item left">
+            <div class="milestone-marker">05</div>
+            <div class="milestone-content-card">
+              <div class="milestone-year-tag">2026 &bull; The National Standard</div>
+              <h3 class="milestone-card-title">50,000+ Vehicles Certified</h3>
+              <p class="milestone-card-desc">
+                Recognized across the region as the premier master facility for unsolvable electrical gremlins, servicing over 50 enterprise fleets and thousands of luxury vehicle owners.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. OUR TEAM CARDS (Master Certified Specialists) -->
+    <section class="team-section" id="team">
+      <div class="container">
+        <div class="section-header text-center team-section-header">
+          <span class="section-tag" style="margin-left: auto; margin-right: auto;">
+            <span class="tag-status-dot"></span>
+            Master Craftsmanship
+          </span>
+          <h2 class="section-title">Master Certified <span class="text-gold-accent">Auto Electricians &amp; Engineers</span></h2>
+          <p class="section-subtitle">
+            Every technician holds master-level certifications with a minimum decade in micro-circuit troubleshooting.
+          </p>
+        </div>
+
+        <div class="team-grid-4">
+          <!-- Member 1 -->
+          <div class="team-member-card">
+            <div class="team-member-avatar-wrap">
+              <img src="assets/images/team_vikram.jpg" alt="Vikram Vance, Master Auto Electrician" loading="lazy">
+              <div class="team-avatar-overlay"></div>
+              <span class="team-top-chip">ASE Master L3</span>
+              <span class="team-member-exp-badge"><span class="exp-dot"></span>26 Yrs Exp</span>
+            </div>
+            <div class="team-member-body">
+              <h3 class="team-member-name">Vikram Vance</h3>
+              <span class="team-member-role">Founder &amp; Chief Diagnostic Director</span>
+              <p class="team-member-bio">Waveform harmonics, starter armature lathe turning &amp; multiplex bus architecture.</p>
+              <div class="team-skills-chips">
+                <span class="skill-chip-micro">ASE L3</span>
+                <span class="skill-chip-micro">CAN-FD</span>
+                <span class="skill-chip-micro">Dyno Bench</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member 2 -->
+          <div class="team-member-card">
+            <div class="team-member-avatar-wrap">
+              <img src="assets/images/team_elena.jpg" alt="Elena Rostova, High-Voltage EV Specialist" loading="lazy">
+              <div class="team-avatar-overlay"></div>
+              <span class="team-top-chip">800V Certified</span>
+              <span class="team-member-exp-badge"><span class="exp-dot"></span>18 Yrs Exp</span>
+            </div>
+            <div class="team-member-body">
+              <h3 class="team-member-name">Elena Rostova</h3>
+              <span class="team-member-role">High-Voltage EV &amp; Battery Lab Lead</span>
+              <p class="team-member-bio">800V EV battery cell balancing, BMS firmware &amp; high-voltage thermal dissipation.</p>
+              <div class="team-skills-chips">
+                <span class="skill-chip-micro">800V EV</span>
+                <span class="skill-chip-micro">BMS Spec</span>
+                <span class="skill-chip-micro">CAT IV 1kV</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member 3 -->
+          <div class="team-member-card">
+            <div class="team-member-avatar-wrap">
+              <img src="assets/images/team_david.jpg" alt="David Chen, ECU & Firmware Specialist" loading="lazy">
+              <div class="team-avatar-overlay"></div>
+              <span class="team-top-chip">IPC-A-610</span>
+              <span class="team-member-exp-badge"><span class="exp-dot"></span>14 Yrs Exp</span>
+            </div>
+            <div class="team-member-body">
+              <h3 class="team-member-name">David Chen</h3>
+              <span class="team-member-role">Micro-Electronics &amp; ECU Cryptographer</span>
+              <p class="team-member-bio">0402 SMD soldering, seed-key unlock recovery &amp; DoIP Ethernet bus micro-flashing.</p>
+              <div class="team-skills-chips">
+                <span class="skill-chip-micro">SMD Solder</span>
+                <span class="skill-chip-micro">DoIP</span>
+                <span class="skill-chip-micro">EEPROM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Member 4 -->
+          <div class="team-member-card">
+            <div class="team-member-avatar-wrap">
+              <img src="assets/images/team_marcus.jpg" alt="Marcus Al-Mansoor, Heavy Stator Specialist" loading="lazy">
+              <div class="team-avatar-overlay"></div>
+              <span class="team-top-chip">300A Stator Master</span>
+              <span class="team-member-exp-badge"><span class="exp-dot"></span>20 Yrs Exp</span>
+            </div>
+            <div class="team-member-body">
+              <h3 class="team-member-name">Marcus Al-Mansoor</h3>
+              <span class="team-member-role">Heavy Stator &amp; Alternator Fabricator</span>
+              <p class="team-member-bio">Precision winding for commercial haulers, high-output stators &amp; dual-rectifier cooling.</p>
+              <div class="team-skills-chips">
+                <span class="skill-chip-micro">300A Dyno</span>
+                <span class="skill-chip-micro">Machining</span>
+                <span class="skill-chip-micro">Fleet Lead</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. BATTERY & AUTO ELECTRICAL REPAIR SHOP RELATED MORE PREMIUM SECTION: SANCTUARY FACILITY -->
+    <section class="sanctuary-section" id="facility">
+      <div class="container">
+        <div class="sanctuary-box">
+          <div class="sanctuary-details">
+            <span class="hero2-badge" style="margin-bottom: 14px; width: fit-content;">
+              <span class="pulse-indicator"></span>
+              <span class="badge-text">Facility Sanctuary</span>
+            </span>
+            <h2 class="section-title" style="text-align: left; margin-bottom: 14px;">The VoltEdge Diagnostic Chamber &amp; Clean Bench Facility</h2>
+            <p class="section-subtitle" style="text-align: left; margin: 0 0 16px 0;">
+              Unlike conventional grease-heavy garages, our facility is engineered like an avionics clean-room. Every bay is equipped with isolated electrical grounding, zero-noise regulated DC power supplies, and certified test stations to eliminate false diagnostic reads.
+            </p>
+
+            <div class="sanctuary-checklist">
+              <div class="sanctuary-check-item">
+                <span class="status-pulse-dot"></span>
+                <span>Isolated 0.05Î© Earth Grounding Benches</span>
+              </div>
+              <div class="sanctuary-check-item">
+                <span class="status-pulse-dot gold"></span>
+                <span>Class-3 ESD Antistatic Micro-Soldering Area</span>
+              </div>
+              <div class="sanctuary-check-item">
+                <span class="status-pulse-dot"></span>
+                <span>Variable RPM 300A Alternator Dyno Rig</span>
+              </div>
+              <div class="sanctuary-check-item">
+                <span class="status-pulse-dot gold"></span>
+                <span>FLIR Radiometric Thermal Imaging Array</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="sanctuary-media-wrap">
+            <img 
+              src="assets/images/about_sanctuary_facility.jpg" 
+              alt="VoltEdge master electrical diagnostic bay" 
+              loading="lazy"
+            >
+            <div class="image-gradient-overlay"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         PREMIUM MASTER CALL-TO-ACTION (CTA) CARDS SECTION
+         Architected for Ultra-Luxury Automotive Engineering Aesthetics
+         ========================================================================== -->
+    <!-- ==========================================================================
+         PREMIUM CTA CARD - IMAGE 2 REFERENCE (DARK CENTERED LUXURY CARD)
+         ========================================================================== -->
+    <section class="premium-cta-section" id="premium-cta-section">
+      <div class="container">
+        <div class="cta-card-dark-centered">
+          <h2 class="cta-dark-title">Ready to Experience Master Automotive Craftsmanship?</h2>
+          <p class="cta-dark-subtitle">Schedule an engineering consultation or visit our high-voltage laboratory to speak directly with our certified master diagnosticians.</p>
+          <div class="cta-dark-actions">
+            <a href="book a service.html" class="cta-btn-gold" id="about-cta-book-btn">
+              <span>Schedule Consultation</span>
+              <svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor">
+                <path d="M3 8H13M13 8L8.5 3.5M13 8L8.5 12.5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+            <a href="contact.html" class="cta-btn-outline-pill" id="about-cta-engineer-btn">
+              <span>Meet Our Engineers</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                <circle cx="12" cy="7" r="4"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (Exact Same Design & Sizing as Home 1) -->
+  <footer class="site-footer" id="site-footer">
+    <div class="container">
+      <div class="footer-grid-4">
+        <!-- Column 1: Brand Info & Socials -->
+        <div class="footer-column footer-brand-column">
+          <div class="brand-logo footer-logo">
+            <span class="logo-icon-wrap">
+              <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+            </span>
+            <div class="brand-text">
+              <span class="brand-title" dir="ltr"><span class="brand-title-primary">VOLT</span><span class="brand-title-secondary">ERRA</span></span>
+              <span class="brand-subtitle">Battery &amp; Auto Electrical</span>
+            </div>
+          </div>
+          <p class="footer-brand-text">
+            Crafting master-grade automotive electrical diagnostics, precision battery solutions, and heavy-duty charging systems. Certified master workshops.
+          </p>
+          <div class="footer-social-icons">
+            <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+              </svg>
+            </a>
+            <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+              </svg>
+            </a>
+            <a href="https://youtube.com" class="social-link" aria-label="YouTube" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z"/>
+                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"/>
+              </svg>
+            </a>
+            <a href="https://twitter.com" class="social-link" aria-label="X Twitter" target="_blank" rel="noopener">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Column 2: Services -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Services</h4>
+          <ul class="footer-links">
+            <li><a href="service.html">Heavy Starter &amp; Alternator Rebuild</a></li>
+            <li><a href="service.html">Lithium &amp; AGM Pack Balancing</a></li>
+            <li><a href="service.html">CAN / LIN / FlexRay Diagnostics</a></li>
+            <li><a href="service.html">Parasitic Draw Elimination</a></li>
+            <li><a href="service.html">Electric Steering &amp; Chassis Sensors</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Additional Links -->
+        <div class="footer-column">
+          <h4 class="footer-heading">Additional Links</h4>
+          <ul class="footer-links">
+            <li><a href="technology.html">Enterprise Tech &amp; Partners</a></li>
+            <li><a href="pricing.html">Diagnostic Process Flow</a></li>
+            <li><a href="Pricing detail.html?id=1">Pricing &amp; Warranty Packages</a></li>
+            <li><a href="About.html">About VoltEdge</a></li>
+            <li><a href="contact.html">Contact Workshop</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact & Support (Matching Exact Format) -->
+        <div class="footer-column footer-contact-column">
+          <h4 class="footer-heading">Contact &amp; Support</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"></circle>
+                <polyline points="12 6 12 12 16 14"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Timing:</span>
+                <span class="contact-row-val">Daily: 07:30 AM â€“ 06:30 PM</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Location:</span>
+                <span class="contact-row-val">742 Ampere Blvd, Industrial Park, Suite 104</span>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Mail:</span>
+                <a href="mailto:support@voltedge-auto.com" class="footer-contact-link">support@voltedge-auto.com</a>
+              </div>
+            </div>
+
+            <div class="footer-contact-row">
+              <svg class="contact-inline-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <div class="contact-row-content">
+                <span class="contact-row-title">Support:</span>
+                <a href="tel:+18005558658" class="footer-contact-link">+1 (800) 555-8658</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="copyright-text">
+          &copy; 2026 VoltEdge Auto Electrical Repair Shop. All rights reserved.
+        </div>
+        <div class="legal-links">
+          <a href="#terms">Terms &amp; Conditions</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#privacy">Privacy Policy</a>
+          <span class="legal-divider">&bull;</span>
+          <a href="#disclaimer">Safety Disclaimer</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL: LOGIN DIALOG -->
+  <div class="modal-overlay" id="login-modal" aria-hidden="true">
+    <div class="modal-card" role="dialog" aria-labelledby="login-modal-title">
+      <div class="modal-top-bar">
+        <div class="modal-card-logo">
+          <span class="logo-icon-wrap mini">
+            <img src="assets/images/logo_transparent.png" alt="VOLTERRA Luxury Auto Electrical" class="brand-logo-img">
+          </span>
+          <span class="modal-logo-text">VOLTERRA Customer Portal</span>
+        </div>
+        <button class="modal-close-btn" id="close-login-modal" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-content-body">
+        <h3 class="auth-modal-title" id="login-modal-title">Sign In to Your Account</h3>
+        <p class="auth-modal-subtitle">Access your diagnostic telemetry records, warranty status, and bay bookings.</p>
+
+        <div class="social-auth-buttons">
+          <button type="button" class="btn-social" id="btn-google-login">
+            <svg class="social-svg" viewBox="0 0 24 24">
+              <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+              <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+              <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.06H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.94l2.85-2.22.81-.63z"/>
+              <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.06l3.66 2.84c.87-2.6 3.3-4.52 6.16-4.52z"/>
+            </svg>
+            <span>Continue with Google</span>
+          </button>
+          <button type="button" class="btn-social" id="btn-apple-login">
+            <svg class="social-svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M15.97 6.87c.66-.82 1.11-1.95.99-3.08-1 .04-2.18.67-2.88 1.49-.61.71-1.15 1.87-1.01 2.98 1.11.09 2.24-.58 2.9-1.39z"/>
+            </svg>
+            <span>Continue with Apple</span>
+          </button>
+        </div>
+
+        <div class="auth-separator">
+          <span>Or sign in with email</span>
+        </div>
+
+        <form id="login-form" class="auth-vertical-form">
+          <div class="form-field">
+            <label for="login-email" class="form-label">Email Address</label>
+            <input type="email" id="login-email" class="form-input" placeholder="client@domain.com" required>
+          </div>
+
+          <div class="form-field">
+            <label for="login-password" class="form-label">Password</label>
+            <div class="password-input-wrapper">
+              <input type="password" id="login-password" class="form-input" placeholder="â€¢â€¢â€¢â€¢â€¢â€¢â€¢â€¢" required>
+              <button type="button" class="eye-toggle-btn" id="toggle-password-visibility" aria-label="Toggle password visibility">
+                <svg class="eye-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+                  <circle cx="12" cy="12" r="3"/>
+                </svg>
+              </button>
+            </div>
+          </div>
+
+          <div class="form-inline-options">
+            <label class="checkbox-container">
+              <input type="checkbox" id="remember-me" checked>
+              <span class="checkbox-mark"></span>
+              <span class="checkbox-label">Remember Me</span>
+            </label>
+            <a href="#forgot" class="forgot-link" id="forgot-password-link">Forgot Password?</a>
+          </div>
+
+          <button type="submit" class="btn btn-primary full-width auth-submit-btn">
+            <span>Sign In to Dashboard</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- NOTIFICATION TOAST -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <div class="toast-icon">âœ“</div>
+    <div class="toast-message" id="toast-message">Action successful!</div>
+  </div>
+
+  <script src="About.js"></script>
+  <script src="booking-modal.js"></script>
+</body>
+</html>
